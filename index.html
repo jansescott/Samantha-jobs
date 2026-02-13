@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samantha's Job Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Samantha's Job Board</h1>
+      <p class="tagline">Curated opportunities in publishing, writing, and beyond — Houston &amp; Remote</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="profile-summary">
+      <h2>About</h2>
+      <div class="profile-details">
+        <div class="profile-info">
+          <p><strong>Samantha Zavala</strong> — Houston, TX</p>
+          <p>B.A. in English, Minor in Creative Writing — University of Houston</p>
+          <p>Writer, communicator, and people person looking to break into publishing and beyond.</p>
+        </div>
+        <div class="profile-skills">
+          <span class="skill-tag">Fiction Writing</span>
+          <span class="skill-tag">Creative Writing</span>
+          <span class="skill-tag">Editing</span>
+          <span class="skill-tag">Communication</span>
+          <span class="skill-tag">Customer Service</span>
+          <span class="skill-tag">Content Creation</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters">
+      <h2>Filter Listings</h2>
+      <div class="filter-controls">
+        <div class="filter-group">
+          <label>Category</label>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="publishing">Publishing &amp; Editorial</option>
+            <option value="content-writing">Content &amp; Copywriting</option>
+            <option value="technical-writing">Technical Writing</option>
+            <option value="marketing">Marketing &amp; Communications</option>
+            <option value="literary">Literary &amp; Bookstore</option>
+            <option value="freelance">Freelance &amp; Contract</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Location</label>
+          <select id="location-filter">
+            <option value="all">All Locations</option>
+            <option value="houston">Houston, TX</option>
+            <option value="remote">Remote</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Search</label>
+          <input type="text" id="search-input" placeholder="Search job titles or companies...">
+        </div>
+      </div>
+      <p class="results-count"><span id="count">0</span> listings found</p>
+    </section>
+
+    <section class="job-listings" id="job-listings">
+      <!-- Jobs populated by JS -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Last updated: <span id="last-updated"></span> · Listings link directly to source platforms</p>
+    <p class="disclaimer">Links go to LinkedIn, Indeed, and company career pages. Listings may expire — apply quickly!</p>
+  </footer>
+
+  <script src="jobs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
