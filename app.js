@@ -45,12 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const locationLabel = job.location === 'remote' ? 'Remote' : 'Houston, TX';
       const isSaved = saved.includes(job.id);
       const categoryLabels = {
-        'publishing': 'Publishing & Editorial',
-        'content-writing': 'Content & Copywriting',
-        'technical-writing': 'Technical Writing',
-        'marketing': 'Marketing & Comms',
-        'literary': 'Literary & Bookstore',
-        'freelance': 'Freelance'
+        'operations-admin': 'Operations & Admin',
+        'bilingual-translation': 'Bilingual & Translation',
+        'teaching-education': 'Teaching & Education',
+        'hospitality': 'Hospitality & Service',
+        'marketing-comms': 'Marketing & Comms',
+        'writing': 'Writing & Publishing'
       };
 
       return `

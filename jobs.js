@@ -1,713 +1,495 @@
 const jobs = [
   // ============================================================
-  // CATEGORY 1: Publishing & Editorial — Houston, TX
+  // CATEGORY 1: Operations & Admin — Houston, TX
   // ============================================================
   {
-    id: "pub-1",
-    title: "Editorial Assistant",
-    company: "The Daily Grace Co.",
-    location: "houston",
-    category: "publishing",
-    source: "Indeed",
-    description: "Provide administrative, editorial, and organizational support to the Editorial Director. Manage communications, organize schedules, review submissions, and assist with content development through the publishing process. Knowledge of Chicago Manual of Style preferred. Located in Spring, TX (Houston metro). Ideal for detail-oriented individuals with a passion for books.",
-    url: "https://www.indeed.com/q-editorial-assistant-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "pub-2",
-    title: "Assistant Acquisitions Editor",
-    company: "The Daily Grace Co.",
-    location: "houston",
-    category: "publishing",
-    source: "Indeed",
-    description: "Support evaluation, development, and management of book and Bible study acquisitions pipeline. Help identify publishing opportunities and steward submissions through the review process. BA in publishing, English, or related field required. 0-2 years experience — ideal for someone early in their publishing career.",
-    url: "https://www.indeed.com/q-publishing-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "pub-3",
-    title: "Senior Scientific Editor",
-    company: "UTHealth Houston",
-    location: "houston",
-    category: "publishing",
-    source: "Indeed",
-    description: "Deliver writing education and research assistance related to scientific publishing. Collaborate with scientific and clinical teams to develop, edit, and review high-quality scientific writing deliverables including grant applications and peer-reviewed publications.",
-    url: "https://www.indeed.com/q-publishing-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "pub-4",
-    title: "Digital Publishing Editor",
-    company: "Hart Energy",
-    location: "houston",
-    category: "publishing",
-    source: "Indeed",
-    description: "Shape how Hart Energy informs and influences its audience through digital publishing. Requires strong digital publishing familiarity including WordPress, SEO basics, and analytics tools. Play a key role in content strategy for energy industry publications.",
-    url: "https://www.indeed.com/q-publishing-editor-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "pub-5",
-    title: "Publishing Jobs — Search All Houston Openings",
-    company: "Multiple Companies",
-    location: "houston",
-    category: "publishing",
-    source: "Glassdoor",
-    description: "Browse 13+ publishing jobs in Houston from companies including University of Houston, Cognizant, Pearson, and Houston Methodist Academic Institute. Roles range from editorial to digital publishing. Salary range $40K-$72K.",
-    url: "https://www.glassdoor.com/Job/houston-publishing-jobs-SRCH_IL.0,7_IC1140171_KO8,18.htm"
-  },
-  {
-    id: "pub-5b",
-    title: "Publishing Jobs — Houston (iHirePublishing)",
-    company: "Multiple Companies",
-    location: "houston",
-    category: "publishing",
-    source: "iHirePublishing",
-    description: "Dedicated publishing job board with Houston-area openings. Includes editorial, production, and publishing management roles across the industry. A niche board specifically for publishing professionals.",
-    url: "https://www.ihirepublishing.com/t-publishing-s-texas-c-houston-jobs.html"
-  },
-
-  // ============================================================
-  // CATEGORY 2: Remote Publishing & Editorial
-  // ============================================================
-  {
-    id: "pub-rem-1",
-    title: "Editorial & Publishing Associate",
-    company: "Simon & Schuster",
-    location: "remote",
-    category: "publishing",
-    source: "Publishers Marketplace",
-    description: "Support a Publisher-at-Large and Editor. Manage the Stephen King frontlist and extensive backlist, plus support authors including Jennifer Egan, Anthony Doerr, and Rachel Kushner. Hybrid/NYC, $60,000 salary. Requires 2-3 years publishing experience. Posted January 27, 2026.",
-    url: "https://www.publishersmarketplace.com/jobs/view.cgi?job_no=42733"
-  },
-  {
-    id: "pub-rem-2",
-    title: "Editorial Assistant — Tin House",
-    company: "Zando / Tin House",
-    location: "remote",
-    category: "publishing",
-    source: "Publishers Marketplace",
-    description: "Support Masie Cochran, Editorial Director for Tin House / Zando partner imprint lists. Ideal for candidates who enjoy a fast pace, are organized, adaptable, detail-oriented, collaborative, and communicative. Entry-level at a nimble independent publisher.",
-    url: "https://www.publishersmarketplace.com/jobs/"
-  },
-  {
-    id: "pub-rem-3",
-    title: "Editorial Assistant — Knopf / Pantheon",
-    company: "Alfred A. Knopf / Penguin Random House",
-    location: "remote",
-    category: "publishing",
-    source: "Penguin Random House",
-    description: "The editorial group of Knopf and Pantheon Books is looking for an assistant to report to three senior editors. Entry-level opportunity at one of the most prestigious literary imprints in publishing. Hybrid format.",
-    url: "https://careers.penguinrandomhouse.com/"
-  },
-  {
-    id: "pub-rem-4",
-    title: "Acquisitions Editor — Arts & Culture (Part-Time)",
-    company: "Flatpage",
-    location: "remote",
-    category: "publishing",
-    source: "FlexJobs",
-    description: "Part-time remote role (US-based only). $35-40/hour for up to 20 hours per week. Focus on arts and culture content acquisition. Great for building publishing experience on a flexible schedule.",
-    url: "https://www.flexjobs.com/remote-jobs/publishing"
-  },
-  {
-    id: "pub-rem-5",
-    title: "Editorial Assistant",
-    company: "Red Line Editorial",
-    location: "remote",
-    category: "publishing",
-    source: "ZipRecruiter",
-    description: "Join a high-energy team of publishing professionals. Work on key aspects of editorial projects from manuscript to publication. Salary range $42K-$76K for remote editorial assistant roles.",
-    url: "https://www.ziprecruiter.com/Jobs/Remote-Editorial-Assistant"
-  },
-  {
-    id: "pub-rem-6",
-    title: "2026 Summer Publishing Internship (Remote)",
-    company: "Lanternfish Press",
-    location: "remote",
-    category: "publishing",
-    source: "Submittable",
-    description: "Learn about editorial, production, marketing, and sales departments. Up to 35 hours/week for 13 weeks (June 1 - August 31, 2026). Fully remote. Apply via Submittable by February 28. Must be eligible for academic credit.",
-    url: "https://www.indeed.com/q-entry-level-publishing-l-remote-jobs.html"
-  },
-  {
-    id: "pub-rem-7",
-    title: "Publishing Prologue Program (Free Virtual)",
-    company: "Simon & Schuster",
-    location: "remote",
-    category: "publishing",
-    source: "Company Website",
-    description: "Free week-long virtual careers-in-book-publishing lecture series. Must be a 2025 or 2026 college graduate. Learn about every department through S&S employees. Submit resume and cover letter; notified by May 3, 2026. Free — no cost to attend.",
-    url: "https://www.simonandschuster.biz/p/internships-at-simon-schuster"
-  },
-  {
-    id: "pub-rem-8",
-    title: "Developmental Editor (Part-Time Remote)",
-    company: "Various Publishers (via FlexJobs)",
-    location: "remote",
-    category: "publishing",
-    source: "FlexJobs",
-    description: "Work with book authors on quality manuscripts in a mentoring/coaching role. Part-time remote. Requires 1+ years of experience in substantive editing. 131 remote publishing jobs on FlexJobs as of February 2026.",
-    url: "https://www.flexjobs.com/remote-jobs/publishing"
-  },
-  {
-    id: "pub-rem-9",
-    title: "Jobs with Publishers — All Listings",
-    company: "Community of Literary Magazines & Presses",
-    location: "remote",
-    category: "publishing",
-    source: "CLMP",
-    description: "Browse jobs from independent literary publishers and magazines. Updated regularly with editorial, marketing, and production roles across the literary publishing world. Curated specifically for literary publishing careers.",
-    url: "https://www.clmp.org/programs-opportunities/jobs-with-publishers/"
-  },
-  {
-    id: "pub-rem-10",
-    title: "Paid Remote Publishing Internships",
-    company: "Penguin Random House",
-    location: "remote",
-    category: "publishing",
-    source: "Company Website",
-    description: "Paid, remote internship opportunities to learn about book publishing. With 300+ publishing imprints worldwide, PRH offers a variety of career opportunities to fit every skill set and literary interest. Check their careers portal for current openings.",
-    url: "https://careers.penguinrandomhouse.com/"
-  },
-
-  // ============================================================
-  // CATEGORY 3: Content Writing / Copywriting — Houston, TX
-  // ============================================================
-  {
-    id: "cw-1",
-    title: "Content Writer",
-    company: "Bizopia (Houston SEO Agency)",
-    location: "houston",
-    category: "content-writing",
-    source: "Company Site",
-    description: "Write strategic content pieces of 500-3,000 words for digital marketing projects. Full-time in office (Katy, TX), Monday-Friday 8:30am-5:30pm, with potential WFH/remote hybrid after 90 days. Seeking detail-oriented, organized writers.",
-    url: "https://bizopia.com/copywriter/"
-  },
-  {
-    id: "cw-2",
-    title: "Content Developer & Copywriter",
-    company: "HexaGroup",
-    location: "houston",
-    category: "content-writing",
-    source: "Indeed",
-    description: "Prolific and talented B2B copywriter for a growing marketing team. Work with project managers on diverse content projects. Estimated salary $64K-$104K. Great opportunity to develop business writing skills.",
-    url: "https://www.indeed.com/q-copywriting-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "cw-3",
-    title: "Senior Marketing Copywriter",
-    company: "Vego Garden",
-    location: "houston",
-    category: "content-writing",
-    source: "Indeed",
-    description: "Write to make readers feel excitement about products — storytelling, not just informing. A great fit for fiction writers who want to apply narrative skills commercially. Craft compelling brand copy that connects emotionally.",
-    url: "https://www.indeed.com/q-copywriter-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "cw-4",
-    title: "Marketing Copywriter",
-    company: "SynergenX Health Holdings",
-    location: "houston",
-    category: "content-writing",
-    source: "Indeed",
-    description: "Houston-based marketing copywriter position. Salary range $70K-$75K. Create compelling marketing copy for a healthcare organization. Excellent benefits and stable employment.",
-    url: "https://www.indeed.com/q-copywriter-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "cw-5",
-    title: "Content Writer",
-    company: "SpaceManager Closets",
-    location: "houston",
-    category: "content-writing",
-    source: "Indeed",
-    description: "Content writing for one of Houston's fastest-growing home organization companies. Salary range $50K-$60K. Write engaging product descriptions, blog posts, and marketing materials.",
-    url: "https://www.indeed.com/q-content-writer-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "cw-6",
-    title: "Senior Copywriter",
-    company: "Mattress Firm",
-    location: "houston",
-    category: "content-writing",
-    source: "Indeed",
-    description: "Craft compelling written content on the brand creative team supporting brand, marketing, and business initiatives. Established Houston-headquartered company with strong brand presence.",
-    url: "https://www.indeed.com/q-copywriter-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "cw-7",
-    title: "Creative Content Writer — Houston Listings",
-    company: "Multiple Companies",
-    location: "houston",
-    category: "content-writing",
-    source: "Glassdoor",
-    description: "Browse 7+ creative content writer jobs in Houston. Roles emphasizing creative storytelling, brand voice, and content strategy. Skills needed: writing, Chicago Manual of Style, copywriting, AP style.",
-    url: "https://www.glassdoor.com/Job/houston-creative-content-writer-jobs-SRCH_IL.0,7_IC1140171_KO8,31.htm"
-  },
-
-  // ============================================================
-  // CATEGORY 4: Remote Content Writing / Copywriting
-  // ============================================================
-  {
-    id: "cw-rem-1",
-    title: "Senior Copywriter (Remote)",
-    company: "gt.school",
-    location: "remote",
-    category: "content-writing",
-    source: "LinkedIn",
-    description: "Remote senior copywriter position at $100,000/year. Create compelling content for an education technology company. Strong writing skills and content strategy experience preferred.",
-    url: "https://www.linkedin.com/jobs/content-writer-jobs-houston-tx"
-  },
-  {
-    id: "cw-rem-2",
-    title: "Copywriter (Remote)",
-    company: "Coalition Technologies",
-    location: "remote",
-    category: "content-writing",
-    source: "Remotive",
-    description: "Remote copywriter role at a digital marketing agency. Write compelling content for web, marketing campaigns, and client projects. Open worldwide.",
-    url: "https://remotive.com/remote-jobs/writing/copywriter-1749306"
-  },
-  {
-    id: "cw-rem-3",
-    title: "AI Training Copywriter (Remote)",
-    company: "DataAnnotation.tech",
-    location: "remote",
-    category: "content-writing",
-    source: "We Work Remotely",
-    description: "Help train AI chatbots by writing diverse conversations, high-quality answers, and fact-checking AI responses. Flexible hours, $20+/hr starting (expert projects $40+/hr). Requires bachelor's degree and excellent writing skills. Min 10 hrs/week. Apply by March 7, 2026.",
-    url: "https://dataannotation.tech/"
-  },
-  {
-    id: "cw-rem-4",
-    title: "Web Content Manager (Remote, Temporary)",
-    company: "Robert Half",
-    location: "remote",
-    category: "content-writing",
-    source: "Robert Half",
-    description: "Manage, update, and optimize website content to ensure accuracy, usability, and alignment with organizational goals. Temporary remote position through a major staffing agency.",
-    url: "https://www.roberthalf.com/us/en/jobs/all/copywriter"
-  },
-  {
-    id: "cw-rem-5",
-    title: "Remote Content Writer — Browse 383+ Openings",
-    company: "Multiple Companies",
-    location: "remote",
-    category: "content-writing",
-    source: "Indeed",
-    description: "Browse hundreds of remote content writer openings including blog writing, SEO content, brand storytelling, and marketing copy across various industries. New listings added daily.",
-    url: "https://www.indeed.com/q-remote-content-writer-jobs.html"
-  },
-  {
-    id: "cw-rem-6",
-    title: "Remote Copywriting — Browse 335+ Openings",
-    company: "Multiple Companies",
-    location: "remote",
-    category: "content-writing",
-    source: "FlexJobs",
-    description: "Remote, part-time, freelance, and flexible copywriting jobs. Produce blog posts, social media content, guides, proposals, and sales copy. Work-from-home and hybrid options. $27-$67/hr range.",
-    url: "https://www.flexjobs.com/remote-jobs/online-copywriting"
-  },
-
-  // ============================================================
-  // CATEGORY 5: Technical Writing — Houston, TX
-  // ============================================================
-  {
-    id: "tw-1",
-    title: "Technical Writer / Illustrator",
-    company: "Fairbanks Morse Defense",
-    location: "houston",
-    category: "technical-writing",
-    source: "Indeed",
-    description: "Develop data for O&M technical manuals, maintenance standards, and other technical documents. 3+ years of technical writing experience preferred, in software or industrial products.",
-    url: "https://www.indeed.com/q-technical-writer-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "tw-2",
-    title: "Technical Writer — Engineering",
-    company: "Integra Mission Critical LLC",
-    location: "houston",
-    category: "technical-writing",
-    source: "Indeed",
-    description: "Work closely with engineers to transform complex technical concepts into accessible documentation. Requires strong technical background and ability to write clearly for varied audiences.",
-    url: "https://www.indeed.com/q-technical-writing-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "tw-3",
-    title: "Technical Writer",
-    company: "RCP Inc.",
-    location: "houston",
-    category: "technical-writing",
-    source: "Indeed",
-    description: "Scan/print technical document packages and assist in cataloging and controlling technical documentation. Entry-level opportunity to build technical documentation skills in an industrial setting.",
-    url: "https://www.indeed.com/q-technical-writer-l-houston,-tx-jobs.html"
-  },
-  {
-    id: "tw-4",
-    title: "Technical Writer (Fed Civ)",
-    company: "KBR",
-    location: "houston",
-    category: "technical-writing",
-    source: "LinkedIn",
-    description: "Flexible on degree and years of experience if you have technical certifications and/or proven writing experience. Major Houston employer with excellent benefits. $27-$62/hr range.",
-    url: "https://www.linkedin.com/jobs/technical-writer-jobs-houston-tx"
-  },
-  {
-    id: "tw-5",
-    title: "Technical Writer",
-    company: "Enchanted Rock Management LLC",
-    location: "houston",
-    category: "technical-writing",
-    source: "Glassdoor",
-    description: "Write and edit technical documentation in the energy sector. 3-5 years experience writing or editing technical documentation, preferably in industrial, energy, or field operations environment.",
-    url: "https://www.glassdoor.com/Job/houston-technical-writer-jobs-SRCH_IL.0,7_IC1140171_KO8,24.htm"
-  },
-  {
-    id: "tw-6",
-    title: "Senior Scientific Writer",
+    id: "oa-1",
+    title: "Operations Coordinator",
     company: "Houston Methodist",
     location: "houston",
-    category: "technical-writing",
+    category: "operations-admin",
     source: "Indeed",
-    description: "Collaborate with scientific and clinical teams to develop, edit, and review grant applications, peer-reviewed publications, and other scientific writing deliverables. Houston's premier medical institution.",
-    url: "https://www.indeed.com/q-technical-writer-l-houston,-tx-jobs.html"
+    description: "Coordinate daily operations, manage scheduling, and support leadership across departments. Strong organizational skills and ability to work cross-functionally required. Excellent benefits at Houston's premier medical institution.",
+    url: "https://www.indeed.com/q-operations-coordinator-l-houston,-tx-jobs.html"
   },
   {
-    id: "tw-7",
-    title: "Senior Technical Writer (Contract)",
-    company: "Contact Government Services, LLC",
+    id: "oa-2",
+    title: "Administrative Coordinator",
+    company: "Rice University",
     location: "houston",
-    category: "technical-writing",
+    category: "operations-admin",
     source: "Indeed",
-    description: "5+ years of experience with development of technical documentation. Work closely with project stakeholders on government-related technical writing projects.",
-    url: "https://www.indeed.com/q-technical-writing-l-houston,-tx-jobs.html"
+    description: "Provide administrative support including calendar management, event coordination, and document preparation. Bachelor's degree required. Strong communication and organizational skills valued. Competitive university benefits.",
+    url: "https://www.indeed.com/q-administrative-coordinator-l-houston,-tx-jobs.html"
   },
   {
-    id: "tw-8",
-    title: "Technical Writer I (Entry-Level Contract)",
-    company: "Various (via ZipRecruiter)",
+    id: "oa-3",
+    title: "Executive Assistant",
+    company: "Memorial Hermann Health System",
     location: "houston",
-    category: "technical-writing",
+    category: "operations-admin",
+    source: "LinkedIn",
+    description: "Support C-suite executives with scheduling, travel coordination, meeting preparation, and correspondence. Requires excellent organizational skills and ability to manage multiple priorities in a fast-paced environment.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=executive+assistant&location=Houston%2C+Texas"
+  },
+  {
+    id: "oa-4",
+    title: "Office Manager",
+    company: "Various Companies",
+    location: "houston",
+    category: "operations-admin",
     source: "ZipRecruiter",
-    description: "On-site technical writer in Houston (5x/week). Pay rate $23-$28/hour (W2). Entry-level opportunity to gain technical writing experience. 165+ technical writer jobs in the Houston area.",
-    url: "https://www.ziprecruiter.com/Jobs/Technical-Writer/-in-Houston,TX"
-  },
-
-  // ============================================================
-  // CATEGORY 6: Freelance Writing (Remote)
-  // ============================================================
-  {
-    id: "fl-1",
-    title: "Freelance Writer",
-    company: "IAPWE (Intl Assoc. of Professional Writers & Editors)",
-    location: "remote",
-    category: "freelance",
-    source: "Remotive",
-    description: "Remote freelance writer role. $50-$75/hr. Open worldwide. IAPWE provides career support and professional development opportunities to the freelancing community. Flexible schedule.",
-    url: "https://remotive.com/remote-jobs/writing/freelance-writer-1185979"
+    description: "Oversee office operations, manage vendor relationships, coordinate meetings, and maintain organizational systems. Ideal for candidates with operations management and team coordination experience. $45K-$65K range.",
+    url: "https://www.ziprecruiter.com/Jobs/Office-Manager/-in-Houston,TX"
   },
   {
-    id: "fl-2",
-    title: "Freelance Article Writer",
-    company: "Static Media",
-    location: "remote",
-    category: "freelance",
+    id: "oa-5",
+    title: "Operations Manager",
+    company: "Various Companies",
+    location: "houston",
+    category: "operations-admin",
+    source: "Glassdoor",
+    description: "Manage daily operations, supervise teams, oversee inventory and vendor relationships, and ensure smooth service delivery. Restaurant and retail operations experience highly valued. Browse 200+ listings.",
+    url: "https://www.glassdoor.com/Job/houston-operations-manager-jobs-SRCH_IL.0,7_IC1140171_KO8,26.htm"
+  },
+  {
+    id: "oa-6",
+    title: "Project Coordinator",
+    company: "University of Houston",
+    location: "houston",
+    category: "operations-admin",
     source: "Indeed",
-    description: "Claim and write 300-900 word articles using a custom CMS. $21/hour rate. Flexible schedule — choose your own articles and write on topics that interest you. Great way to build published clips.",
-    url: "https://www.indeed.com/q-remote-freelance-writer-jobs.html"
+    description: "Coordinate project activities, manage timelines, prepare documentation, and facilitate communication between stakeholders. Bachelor's degree required. Strong organizational and problem-solving skills essential.",
+    url: "https://www.indeed.com/q-project-coordinator-l-houston,-tx-jobs.html"
   },
   {
-    id: "fl-3",
-    title: "Paid Literary Magazine Submissions (Fiction)",
-    company: "Hayden's Ferry Review, Nightmare, Bourbon Penn & more",
-    location: "remote",
-    category: "freelance",
-    source: "CLMP",
-    description: "Multiple paid literary magazines accepting submissions NOW: Hayden's Ferry Review ($1,000 prizes, Feb 1-28 deadline), Nightmare Magazine ($0.08/word for fiction), Bourbon Penn ($100/story), Mississippi Review Prize ($1,000). Perfect for fiction writers building credits.",
-    url: "https://www.clmp.org/programs-opportunities/calls-for-submissions/"
-  },
-  {
-    id: "fl-4",
-    title: "Freelance Essay Writer",
-    company: "FundsforWriters / Poets & Writers Magazine",
-    location: "remote",
-    category: "freelance",
-    source: "FundsforWriters",
-    description: "FundsforWriters pays $200 for 1,000-2,500 word essays. Poets & Writers accepts News & Trends (500-1,200 words), Literary Life essays (1,500-2,500 words), and feature profiles (2,000-3,000 words). Excellent publication credits.",
-    url: "https://fundsforwriters.com/markets/"
-  },
-  {
-    id: "fl-5",
-    title: "40+ Paying Literary Magazines (No Submission Fee)",
-    company: "Bennington Review, Book XI, Grain & more",
-    location: "remote",
-    category: "freelance",
-    source: "Valley of Writers",
-    description: "Curated list of 40+ literary magazines that pay and charge no fee. Rates: Bennington Review ($100-200), Book XI ($200/piece), Grain ($50/page up to $250), Canthius ($50-150). Ideal for fiction writers seeking publication credits and income.",
-    url: "https://www.valleyofwriters.com/40-literary-magazines-that-pay-writers/"
-  },
-  {
-    id: "fl-6",
-    title: "Freelance Proofreader (Part-Time Remote)",
-    company: "JM Services and Consulting",
-    location: "remote",
-    category: "freelance",
+    id: "oa-7",
+    title: "Administrative Assistant",
+    company: "Texas Children's Hospital",
+    location: "houston",
+    category: "operations-admin",
     source: "Indeed",
-    description: "Part-time proofreader reviewing and editing documents for accuracy and consistency. 20 hours/week, flexible schedule. Requires keen eye for detail and excellent grammar. Work with writers, editors, and designers.",
-    url: "https://www.indeed.com/q-entry-level-publishing-l-remote-jobs.html"
+    description: "Provide high-level administrative support including scheduling, correspondence, and document management. Requires strong attention to detail and ability to handle confidential information. Great benefits package.",
+    url: "https://www.indeed.com/q-administrative-assistant-l-houston,-tx-jobs.html"
   },
   {
-    id: "fl-7",
-    title: "Freelance Writing Gigs",
-    company: "Multiple Clients (via Upwork)",
+    id: "oa-rem-1",
+    title: "Remote Operations Coordinator",
+    company: "Various Companies",
     location: "remote",
-    category: "freelance",
-    source: "Upwork",
-    description: "Earn $15-$40/hr writing blogs, articles, press releases, and white papers. Build your own client base and set your own rates. No experience minimum — portfolio quality matters most.",
-    url: "https://www.upwork.com/freelance-jobs/writing/"
-  },
-  {
-    id: "fl-8",
-    title: "Paid Writing Opportunities — 200+ Publications",
-    company: "Various Publications",
-    location: "remote",
-    category: "freelance",
-    source: "BloggingPro",
-    description: "Handpicked job board for paid content writing. Premium database of 200+ publications across various niches paying $15-$500+ per article. Freelance, full-time, and remote opportunities.",
-    url: "https://www.bloggingpro.com/jobs/"
-  },
-  {
-    id: "fl-9",
-    title: "Writing Contests, Grants & Fellowships (No Entry Fee)",
-    company: "Various Organizations",
-    location: "remote",
-    category: "freelance",
-    source: "Freedom with Writing",
-    description: "36+ contests, grants, and fellowships with no entry/application fees. Prizes up to $5,000 plus literary representation. Updated monthly with current deadlines for fiction, poetry, and nonfiction writers.",
-    url: "https://www.freedomwithwriting.com/freedom/uncategorized/36-contests-grants-and-fellowships-for-writers-no-entry-application-fees-for-january-2026/"
-  },
-  {
-    id: "fl-10",
-    title: "Freelance Book Proofreading",
-    company: "Reedsy Marketplace",
-    location: "remote",
-    category: "freelance",
-    source: "Reedsy",
-    description: "Connect with indie authors as a freelance proofreader. Set your own rates ($600-$750 per manuscript average). Per hour, per word, or per project pricing. Build a profile and get discovered by authors seeking editing help.",
-    url: "https://reedsy.com/freelancer/remote-proofreading-jobs/"
-  },
-  {
-    id: "fl-11",
-    title: "Remote Writing & Editing Jobs — All Listings",
-    company: "Multiple Companies",
-    location: "remote",
-    category: "freelance",
+    category: "operations-admin",
     source: "FlexJobs",
-    description: "Browse 335+ remote writing, editing, and journalism jobs. Includes freelance, part-time, and full-time. Blog posts, social media, guides, grant writing, and sales copy across industries.",
-    url: "https://www.flexjobs.com/remote-jobs/writing-editing-journalism"
+    description: "Coordinate operations remotely including vendor management, scheduling, and process documentation. Ideal for candidates with cross-cultural communication skills. Browse 100+ remote operations roles.",
+    url: "https://www.flexjobs.com/remote-jobs/operations"
   },
   {
-    id: "fl-12",
-    title: "Remote Writing Jobs — Curated Board",
-    company: "Multiple Companies",
+    id: "oa-rem-2",
+    title: "Virtual Executive Assistant",
+    company: "Various Companies",
     location: "remote",
-    category: "freelance",
-    source: "Working Nomads",
-    description: "Curated board of remote writing positions: content writer, copywriter, technical writer, and more. Full-time, part-time, freelance, or work-from-anywhere options. Updated daily.",
-    url: "https://www.workingnomads.com/remote-writing-jobs"
+    category: "operations-admin",
+    source: "Indeed",
+    description: "Provide remote executive support including calendar management, travel booking, meeting coordination, and correspondence. Multilingual skills are a strong plus. Flexible scheduling available.",
+    url: "https://www.indeed.com/q-remote-executive-assistant-jobs.html"
   },
 
   // ============================================================
-  // CATEGORY 7: Literary, Agency & Bookstore — Houston
+  // CATEGORY 2: Bilingual & Translation — Houston & Remote
   // ============================================================
   {
-    id: "lit-1",
-    title: "Bookseller / Team Member",
-    company: "Kindred Stories",
+    id: "bt-1",
+    title: "Bilingual Administrative Assistant (Spanish)",
+    company: "Various Companies",
     location: "houston",
-    category: "literary",
-    source: "Company Site",
-    description: "Community bookstore highlighting Black literature in Houston's Third Ward (2310 Elgin St). Expanding and seeking passionate, self-starting, community-oriented individuals. A unique opportunity in Houston's independent literary scene. Check website or Instagram @kindredstorieshtx.",
-    url: "https://kindredstorieshtx.com/pages/work-with-kindred-stories"
-  },
-  {
-    id: "lit-2",
-    title: "Assistant Store Manager — College Bookstore",
-    company: "Barnes & Noble Education / Houston City College",
-    location: "houston",
-    category: "literary",
+    category: "bilingual-translation",
     source: "Indeed",
-    description: "Manage the HCC Northline campus bookstore. Create customer experiences that enhance bookstore loyalty and deliver measurable results. Retail management in a book-focused environment.",
-    url: "https://www.indeed.com/q-book-store-l-houston,-tx-jobs.html"
+    description: "Provide administrative support in a bilingual environment. Spanish fluency required. Handle correspondence, scheduling, and customer interactions in both English and Spanish. Browse 300+ bilingual jobs in Houston.",
+    url: "https://www.indeed.com/q-bilingual-spanish-administrative-assistant-l-houston,-tx-jobs.html"
   },
   {
-    id: "lit-3",
-    title: "Seasonal Campus Retail Associate",
-    company: "Houston Community College — Eastside Bookstore",
+    id: "bt-2",
+    title: "Bilingual Customer Service Representative",
+    company: "Various Companies",
     location: "houston",
-    category: "literary",
+    category: "bilingual-translation",
+    source: "LinkedIn",
+    description: "Assist Spanish and English-speaking customers with inquiries, service requests, and issue resolution. Fluent Spanish required. Strong communication and conflict resolution skills valued. Multiple openings across industries.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=bilingual+spanish&location=Houston%2C+Texas"
+  },
+  {
+    id: "bt-3",
+    title: "Bilingual Coordinator",
+    company: "Houston ISD",
+    location: "houston",
+    category: "bilingual-translation",
     source: "Indeed",
-    description: "Assist with processing sales transactions at HCC Eastside Bookstore. Seasonal position ideal for getting your foot in the door at a campus bookstore. Handle cash, credit, and financial aid payments.",
-    url: "https://www.indeed.com/q-bookstore-l-houston,-tx-jobs.html"
+    description: "Coordinate bilingual programs and serve as a liaison between Spanish-speaking families and school staff. Bachelor's degree and fluent Spanish required. Meaningful work supporting the community.",
+    url: "https://www.indeed.com/q-bilingual-coordinator-l-houston,-tx-jobs.html"
   },
   {
-    id: "lit-4",
-    title: "eBooks Clerk (Part-Time)",
-    company: "Goodwill Industries of Houston",
+    id: "bt-4",
+    title: "Japanese Bilingual Jobs — Houston & Remote",
+    company: "Various Companies",
     location: "houston",
-    category: "literary",
+    category: "bilingual-translation",
     source: "Indeed",
-    description: "Support GWH's eCommerce Department focused on books. Part-time role combining book knowledge with digital commerce — sort, evaluate, and list books for online sale.",
-    url: "https://www.indeed.com/q-book-store-l-houston,-tx-jobs.html"
+    description: "Roles requiring Japanese language skills in Houston including coordination, translation, and client services for Japanese companies with US operations. Professional-level Japanese proficiency valued.",
+    url: "https://www.indeed.com/q-japanese-bilingual-l-houston,-tx-jobs.html"
   },
   {
-    id: "lit-5",
-    title: "Bookstore Jobs — All Houston Listings",
-    company: "Multiple Companies ($17-$45/hr)",
+    id: "bt-5",
+    title: "Bilingual Receptionist / Front Desk",
+    company: "Various Companies",
     location: "houston",
-    category: "literary",
+    category: "bilingual-translation",
     source: "ZipRecruiter",
-    description: "Browse all bookstore positions in Houston. Includes bookseller, manager, and specialty roles at independent and chain bookstores. 20+ listings on SimplyHired alone.",
-    url: "https://www.ziprecruiter.com/Jobs/Houston-Bookstore"
+    description: "Greet visitors and manage front desk operations in English and Spanish. Handle phone calls, scheduling, and visitor management. Customer service experience preferred. $15-$22/hr.",
+    url: "https://www.ziprecruiter.com/Jobs/Bilingual-Receptionist/-in-Houston,TX"
   },
   {
-    id: "lit-6",
-    title: "Volunteer Editor / Manuscript Reader",
-    company: "The Writer's Workout",
+    id: "bt-rem-1",
+    title: "Remote Spanish Interpreter",
+    company: "Various Companies",
     location: "remote",
-    category: "literary",
-    source: "CLMP",
-    description: "Read fiction, poetry, or creative nonfiction submissions; accept or decline; copyedit; and discuss for quarterly issues. Spring interns: read 10-15 short stories/week, remote, ~8 hrs/week for 9 weeks (March 6 - May 5, 2026). Volunteer but excellent for publishing resume.",
-    url: "https://www.clmp.org/programs-opportunities/jobs-with-publishers/"
+    category: "bilingual-translation",
+    source: "Indeed",
+    description: "Provide over-the-phone or video interpretation services between Spanish and English speakers. Flexible scheduling, work from home. Fluent Spanish required. $18-$35/hr depending on experience.",
+    url: "https://www.indeed.com/q-remote-spanish-interpreter-jobs.html"
+  },
+  {
+    id: "bt-rem-2",
+    title: "Remote Translation & Localization",
+    company: "Various Companies",
+    location: "remote",
+    category: "bilingual-translation",
+    source: "FlexJobs",
+    description: "Translate documents, marketing materials, and digital content between English and Spanish or Japanese. Remote and freelance options available. Browse 50+ translation and localization roles.",
+    url: "https://www.flexjobs.com/remote-jobs/translation"
+  },
+  {
+    id: "bt-rem-3",
+    title: "Japanese Language Specialist (Remote)",
+    company: "Various Companies",
+    location: "remote",
+    category: "bilingual-translation",
+    source: "LinkedIn",
+    description: "Remote roles requiring Japanese proficiency including translation, localization, client services, and business coordination for US-Japan business operations. Professional Japanese skills required.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=japanese+language&location=United+States&f_WT=2"
+  },
+  {
+    id: "bt-rem-4",
+    title: "Bilingual Virtual Assistant",
+    company: "Various Companies",
+    location: "remote",
+    category: "bilingual-translation",
+    source: "Indeed",
+    description: "Provide remote administrative support in multiple languages. Handle email, scheduling, research, and customer communication. Spanish and/or Japanese skills give you a competitive edge. Flexible hours.",
+    url: "https://www.indeed.com/q-bilingual-virtual-assistant-remote-jobs.html"
   },
 
   // ============================================================
-  // CATEGORY 8: Marketing & Communications — Houston, TX
+  // CATEGORY 3: Teaching & Education — Houston & Remote
+  // ============================================================
+  {
+    id: "te-1",
+    title: "ESL Teacher",
+    company: "Houston Community College",
+    location: "houston",
+    category: "teaching-education",
+    source: "Indeed",
+    description: "Teach English as a Second Language to adult learners. Design lesson plans, assess proficiency, and deliver engaging instruction. Bachelor's degree required. Experience with multilingual learners preferred.",
+    url: "https://www.indeed.com/q-esl-teacher-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "te-2",
+    title: "Bilingual Teacher / Tutor",
+    company: "Various Schools & Centers",
+    location: "houston",
+    category: "teaching-education",
+    source: "Indeed",
+    description: "Teach or tutor students in bilingual settings. Spanish fluency highly valued. Experience with K-12 or adult learners. Develop curriculum materials and track student progress. Multiple openings across Houston.",
+    url: "https://www.indeed.com/q-bilingual-teacher-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "te-3",
+    title: "Education Coordinator",
+    company: "Various Organizations",
+    location: "houston",
+    category: "teaching-education",
+    source: "LinkedIn",
+    description: "Coordinate educational programs, manage schedules, and support instructors. Strong organizational skills and cross-cultural communication experience valued. Bachelor's degree required.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=education+coordinator&location=Houston%2C+Texas"
+  },
+  {
+    id: "te-4",
+    title: "After-School Program Coordinator",
+    company: "Various Organizations",
+    location: "houston",
+    category: "teaching-education",
+    source: "Indeed",
+    description: "Plan and oversee after-school activities and enrichment programs. Manage staff, coordinate logistics, and communicate with parents. Experience with youth programs and bilingual skills are a plus.",
+    url: "https://www.indeed.com/q-after-school-coordinator-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "te-rem-1",
+    title: "Online English Teacher",
+    company: "Various Platforms",
+    location: "remote",
+    category: "teaching-education",
+    source: "Indeed",
+    description: "Teach English online to international students. Set your own schedule. Bachelor's degree required. Experience teaching ESL in Japan or abroad is a major advantage. $15-$30/hr.",
+    url: "https://www.indeed.com/q-online-english-teacher-remote-jobs.html"
+  },
+  {
+    id: "te-rem-2",
+    title: "Remote Japanese Language Tutor",
+    company: "Various Platforms",
+    location: "remote",
+    category: "teaching-education",
+    source: "Indeed",
+    description: "Tutor students learning Japanese online. Professional Japanese proficiency required. Create lesson materials, assess progress, and provide feedback. Flexible scheduling. Great for candidates with teaching experience in Japan.",
+    url: "https://www.indeed.com/q-japanese-tutor-remote-jobs.html"
+  },
+  {
+    id: "te-rem-3",
+    title: "Curriculum Developer (Remote)",
+    company: "Various EdTech Companies",
+    location: "remote",
+    category: "teaching-education",
+    source: "FlexJobs",
+    description: "Design and develop educational curriculum and lesson plans for language learning programs. Experience creating ESL materials and adapting content for varied proficiency levels is ideal.",
+    url: "https://www.flexjobs.com/remote-jobs/education-training"
+  },
+  {
+    id: "te-rem-4",
+    title: "Remote ESL Instructor",
+    company: "Various Companies",
+    location: "remote",
+    category: "teaching-education",
+    source: "ZipRecruiter",
+    description: "Teach English to adult learners via video conferencing. Use communicative methods and assess proficiency. Bachelor's degree and ESL teaching experience required. Flexible hours. $20-$35/hr.",
+    url: "https://www.ziprecruiter.com/Jobs/Remote-ESL-Teacher"
+  },
+
+  // ============================================================
+  // CATEGORY 4: Hospitality & Service — Houston
+  // ============================================================
+  {
+    id: "hs-1",
+    title: "Restaurant Manager",
+    company: "Various Restaurants",
+    location: "houston",
+    category: "hospitality",
+    source: "Indeed",
+    description: "Oversee front- and back-of-house operations, manage staff, control inventory and COGS, and ensure excellent guest experiences. Operations management and team leadership experience required. Browse 500+ listings.",
+    url: "https://www.indeed.com/q-restaurant-manager-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "hs-2",
+    title: "Bar Manager",
+    company: "Various Establishments",
+    location: "houston",
+    category: "hospitality",
+    source: "Indeed",
+    description: "Manage bar operations including inventory, staff scheduling, and customer service. Bartending experience and leadership skills required. Handle high-volume service while maintaining quality and professionalism.",
+    url: "https://www.indeed.com/q-bar-manager-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "hs-3",
+    title: "Front of House Manager",
+    company: "Various Restaurants",
+    location: "houston",
+    category: "hospitality",
+    source: "LinkedIn",
+    description: "Lead front-of-house team, manage reservations, coordinate with kitchen staff, and ensure seamless guest experiences. Experience with reservation systems (OpenTable/Resy) and high-volume service preferred.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=front+of+house+manager&location=Houston%2C+Texas"
+  },
+  {
+    id: "hs-4",
+    title: "Event Coordinator",
+    company: "Various Venues",
+    location: "houston",
+    category: "hospitality",
+    source: "Indeed",
+    description: "Plan and execute events including private dining, large parties, and special occasions. Coordinate with vendors, manage timelines, and ensure client satisfaction. Hospitality and organizational experience valued.",
+    url: "https://www.indeed.com/q-event-coordinator-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "hs-5",
+    title: "Hotel Operations Coordinator",
+    company: "Various Hotels",
+    location: "houston",
+    category: "hospitality",
+    source: "Glassdoor",
+    description: "Coordinate hotel operations including guest services, scheduling, and vendor management. Bilingual skills (Spanish/Japanese) are a significant advantage in Houston's international hospitality market.",
+    url: "https://www.glassdoor.com/Job/houston-hotel-operations-jobs-SRCH_IL.0,7_IC1140171_KO8,24.htm"
+  },
+  {
+    id: "hs-6",
+    title: "Hospitality Jobs — All Houston Listings",
+    company: "Multiple Companies",
+    location: "houston",
+    category: "hospitality",
+    source: "ZipRecruiter",
+    description: "Browse all hospitality management positions in Houston. Includes restaurant management, bar supervision, event coordination, and guest services roles. $40K-$70K salary range.",
+    url: "https://www.ziprecruiter.com/Jobs/Hospitality-Manager/-in-Houston,TX"
+  },
+  {
+    id: "hs-7",
+    title: "Food & Beverage Manager",
+    company: "Various Companies",
+    location: "houston",
+    category: "hospitality",
+    source: "Indeed",
+    description: "Oversee food and beverage operations including menu development, vendor relationships, inventory management, and staff training. Strong operations background and customer service skills essential.",
+    url: "https://www.indeed.com/q-food-beverage-manager-l-houston,-tx-jobs.html"
+  },
+  {
+    id: "hs-8",
+    title: "Bilingual Guest Services Manager",
+    company: "Various Hotels & Venues",
+    location: "houston",
+    category: "hospitality",
+    source: "LinkedIn",
+    description: "Manage guest relations and front desk operations. Bilingual skills (Spanish/Japanese) highly valued for serving Houston's diverse international clientele. Conflict resolution and customer service experience essential.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=bilingual+hospitality+manager&location=Houston%2C+Texas"
+  },
+
+  // ============================================================
+  // CATEGORY 5: Marketing & Communications — Houston & Remote
   // ============================================================
   {
     id: "mc-1",
     title: "Marketing Coordinator",
-    company: "UTHealth Houston",
+    company: "Various Companies",
     location: "houston",
-    category: "marketing",
+    category: "marketing-comms",
     source: "Indeed",
-    description: "Marketing and content creation role at a major Houston health institution. Requires experience in marketing, content creation, communications, or digital media. Strong writing essential.",
-    url: "https://www.indeed.com/q-marketing-communication-l-houston,-tx-jobs.html"
+    description: "Coordinate marketing campaigns, manage social media content, and support promotional activities. Graphic design skills and bilingual abilities are a plus. Bachelor's degree preferred.",
+    url: "https://www.indeed.com/q-marketing-coordinator-l-houston,-tx-jobs.html"
   },
   {
     id: "mc-2",
-    title: "Content Marketing Specialist",
-    company: "Region 4 Education Service Center",
+    title: "Social Media Coordinator",
+    company: "Various Companies",
     location: "houston",
-    category: "marketing",
-    source: "Indeed",
-    description: "BA in marketing or communications preferred. Strong written and verbal communication skills required. Create compelling content for an education-focused organization. Stable public-sector employer.",
-    url: "https://www.indeed.com/q-marketing-communication-l-houston,-tx-jobs.html"
+    category: "marketing-comms",
+    source: "LinkedIn",
+    description: "Create and manage social media content, track performance metrics, and coordinate weekly promotions. Experience with social media scheduling tools and basic graphic design required.",
+    url: "https://www.linkedin.com/jobs/search/?keywords=social+media+coordinator&location=Houston%2C+Texas"
   },
   {
     id: "mc-3",
-    title: "Senior Marketing & Communication Specialist",
-    company: "Rice University",
+    title: "Graphic Designer / Marketing Assistant",
+    company: "Various Companies",
     location: "houston",
-    category: "marketing",
-    source: "Indeed",
-    description: "Develop marketing and communications strategies for one of Houston's most prestigious universities. Knowledge of trends in higher ed communications preferred. Strong writing background highly valued.",
-    url: "https://www.indeed.com/q-marketing-communication-l-houston,-tx-jobs.html"
+    category: "marketing-comms",
+    source: "Glassdoor",
+    description: "Create visual content for marketing campaigns, social media, and print materials. Proficiency in design tools (Canva, Adobe Suite) and strong visual communication skills required. Browse 100+ listings.",
+    url: "https://www.glassdoor.com/Job/houston-graphic-designer-jobs-SRCH_IL.0,7_IC1140171_KO8,24.htm"
   },
   {
     id: "mc-4",
-    title: "Streaming Content & Marketing Specialist",
-    company: "Houston Astros / Space City Home Network",
+    title: "Communications Specialist",
+    company: "Various Companies",
     location: "houston",
-    category: "marketing",
+    category: "marketing-comms",
     source: "Indeed",
-    description: "Execute marketing campaigns to promote streaming content and network programming for the Houston Astros media network. Combine writing skills with sports and entertainment marketing.",
-    url: "https://www.indeed.com/q-marketing-communication-l-houston,-tx-jobs.html"
+    description: "Develop internal and external communications, manage content calendars, and coordinate with stakeholders. Strong writing skills and organizational abilities essential. Bilingual candidates preferred.",
+    url: "https://www.indeed.com/q-communications-specialist-l-houston,-tx-jobs.html"
   },
   {
     id: "mc-5",
-    title: "Marketing Communications Specialist",
-    company: "AMOT",
+    title: "Bilingual Marketing Specialist",
+    company: "Various Companies",
     location: "houston",
-    category: "marketing",
-    source: "AMA Houston",
-    description: "Multi-channel marketing communications role at an industrial company. 5-10 years experience preferred. Posted February 3, 2026 on AMA Houston job board.",
-    url: "https://jobs.amahouston.org/"
+    category: "marketing-comms",
+    source: "Indeed",
+    description: "Create marketing content in English and Spanish for diverse audiences. Manage bilingual campaigns, translate marketing materials, and support multicultural outreach. Spanish fluency required.",
+    url: "https://www.indeed.com/q-bilingual-marketing-l-houston,-tx-jobs.html"
   },
   {
-    id: "mc-6",
-    title: "Communications Specialist",
-    company: "Haynes Boone LLP",
-    location: "houston",
-    category: "marketing",
-    source: "ZipRecruiter",
-    description: "Support firm management, CMO, and Director of Media Relations at a major law firm. Writing-intensive: develop donor-centric marketing collateral, client interviews, social media posts, and newsletters.",
-    url: "https://www.ziprecruiter.com/Jobs/Communications/-in-Houston,TX"
+    id: "mc-rem-1",
+    title: "Remote Social Media Manager",
+    company: "Various Companies",
+    location: "remote",
+    category: "marketing-comms",
+    source: "FlexJobs",
+    description: "Manage social media accounts, create content, and track analytics remotely. Experience with content scheduling, graphic design, and performance metrics. Browse 200+ remote social media roles.",
+    url: "https://www.flexjobs.com/remote-jobs/social-media"
   },
   {
-    id: "mc-7",
-    title: "Social & Digital Marketing Coordinator",
-    company: "Gillman Automotive Group",
+    id: "mc-rem-2",
+    title: "Remote Marketing Coordinator",
+    company: "Various Companies",
+    location: "remote",
+    category: "marketing-comms",
+    source: "Indeed",
+    description: "Coordinate marketing activities remotely including campaign management, content creation, and vendor coordination. Strong organizational skills and graphic design experience valued.",
+    url: "https://www.indeed.com/q-remote-marketing-coordinator-jobs.html"
+  },
+
+  // ============================================================
+  // CATEGORY 6: Writing & Publishing — Houston & Remote
+  // ============================================================
+  {
+    id: "wr-1",
+    title: "Content Writer",
+    company: "Various Companies",
     location: "houston",
-    category: "marketing",
-    source: "AMA Houston",
-    description: "Coordinate social and digital marketing for one of Houston's largest automotive groups. 2-5 years experience. Posted January 19, 2026. Combines writing with social media management.",
-    url: "https://jobs.amahouston.org/"
+    category: "writing",
+    source: "Indeed",
+    description: "Write strategic content for digital marketing, blogs, and web copy. Strong writing skills and attention to detail required. Cross-cultural perspective and bilingual abilities are a bonus.",
+    url: "https://www.indeed.com/q-content-writer-l-houston,-tx-jobs.html"
   },
   {
-    id: "mc-8",
-    title: "Data Reporter",
-    company: "Houston Chronicle / Hearst",
+    id: "wr-2",
+    title: "Editorial Assistant",
+    company: "Various Publishers",
     location: "houston",
-    category: "marketing",
-    source: "Hearst Careers",
-    description: "Find and tell stories with data in a fast-paced, audience-centered newsroom at the Houston Chronicle. For writers who love research and data-driven storytelling. Houston's largest newspaper.",
-    url: "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_10007"
+    category: "writing",
+    source: "Indeed",
+    description: "Provide administrative, editorial, and organizational support. Manage communications, organize schedules, review submissions, and assist with content development. Detail-oriented individuals with strong language skills preferred.",
+    url: "https://www.indeed.com/q-editorial-assistant-l-houston,-tx-jobs.html"
   },
   {
-    id: "mc-9",
-    title: "Communications & Marketing Jobs",
-    company: "Houston METRO",
-    location: "houston",
-    category: "marketing",
-    source: "Company Site",
-    description: "Roles in marketing, corporate communications, social media, and promotional partnerships at Houston's public transit authority. Stable government employer with good benefits.",
-    url: "https://jobs.ridemetro.org/go/Communications-and-Marketing/8181300/"
+    id: "wr-rem-1",
+    title: "Freelance Writer",
+    company: "Various Publications",
+    location: "remote",
+    category: "writing",
+    source: "Remotive",
+    description: "Remote freelance writing opportunities across multiple publications. $50-$75/hr. Flexible schedule. Strong writing skills and ability to research and produce quality content required.",
+    url: "https://remotive.com/remote-jobs/writing"
   },
   {
-    id: "mc-10",
-    title: "Communications Coordinator",
-    company: "University of Houston",
-    location: "houston",
-    category: "marketing",
-    source: "UH Careers",
-    description: "Communications coordination at your alma mater. UH has multiple communications roles including content creation, digital media, and PR. Great benefits as a state employer. Check careers.uh.edu for current openings.",
-    url: "https://www.indeed.com/q-university-of-houston-communications-jobs.html"
+    id: "wr-rem-2",
+    title: "Remote Content Writer",
+    company: "Various Companies",
+    location: "remote",
+    category: "writing",
+    source: "Indeed",
+    description: "Write blog posts, articles, and marketing content remotely. Cross-cultural experience and multilingual skills add unique perspective. Browse 300+ remote content writer openings.",
+    url: "https://www.indeed.com/q-remote-content-writer-jobs.html"
   },
   {
-    id: "mc-11",
-    title: "Entry Level Communications — 38+ Listings",
-    company: "Multiple Houston Companies",
-    location: "houston",
-    category: "marketing",
-    source: "Glassdoor",
-    description: "Browse 38+ entry-level communications jobs in Houston. Great for recent grads with an English or writing background. Includes corporate comms, content, PR, and marketing roles. Salary range $46K-$115K.",
-    url: "https://www.glassdoor.com/Job/houston-entry-level-communications-jobs-SRCH_IL.0,7_IC1140171_KO8,34.htm"
+    id: "wr-rem-3",
+    title: "Copywriter (Remote)",
+    company: "Various Companies",
+    location: "remote",
+    category: "writing",
+    source: "FlexJobs",
+    description: "Produce blog posts, social media content, guides, and marketing copy remotely. Part-time, freelance, and full-time options available. $27-$67/hr range. Browse 300+ remote copywriting roles.",
+    url: "https://www.flexjobs.com/remote-jobs/online-copywriting"
   },
   {
-    id: "mc-12",
-    title: "Scholar-in-Residence — Creative Writing (2026-27)",
-    company: "University of Houston — Cynthia Woods Mitchell Center",
-    location: "houston",
-    category: "marketing",
-    source: "UH Careers",
-    description: "Nine-month post-graduate fellowship in Creative Writing for 2026-27. Teach one course per semester. $45,000 salary with $1,250 project budget. Apply through careers.uh.edu. Competitive but ideal for committed creative writers.",
-    url: "https://careers.uh.edu/jobs/scholar-in-residence-creative-writing-program-houston-texas-united-states"
-  },
-  {
-    id: "mc-13",
-    title: "Inbound Digital Marketing Specialist",
-    company: "Frazer, Ltd.",
-    location: "houston",
-    category: "marketing",
-    source: "AMA Houston",
-    description: "Digital marketing role in Sugar Land (Houston metro). $60,000-$73,000/year. Content creation, SEO, email marketing, and lead generation. Writing skills are central to the role.",
-    url: "https://jobs.amahouston.org/"
+    id: "wr-rem-4",
+    title: "Remote Writing & Editing Jobs — All Listings",
+    company: "Multiple Companies",
+    location: "remote",
+    category: "writing",
+    source: "Working Nomads",
+    description: "Curated board of remote writing positions: content writer, copywriter, editor, and more. Full-time, part-time, freelance, or work-from-anywhere options. Updated daily.",
+    url: "https://www.workingnomads.com/remote-writing-jobs"
   }
 ];
