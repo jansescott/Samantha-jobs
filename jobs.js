@@ -128,13 +128,13 @@ const jobs = [
   },
   {
     id: "bt-4",
-    title: "Japanese Bilingual — Interpreter/Translator & Admin Support",
-    company: "PASONA N A, Inc.",
+    title: "Bilingual Recruiting Coordinator",
+    company: "Elevate Human Capital",
     location: "houston",
     category: "bilingual-translation",
     source: "Indeed",
-    description: "Support an expatriate manager leading a new engineering project. Provide Japanese-English interpretation, translation, and administrative assistance. Professional Japanese proficiency required.",
-    url: "https://www.indeed.com/viewjob?jk=244d3168bb554eb2"
+    description: "Provide administrative and clerical support for the recruiting and onboarding team in South Houston. Bilingual skills essential for coordinating with a diverse workforce across multiple industries.",
+    url: "https://www.indeed.com/viewjob?jk=2b24e50fe4172535"
   },
   {
     id: "bt-5",
