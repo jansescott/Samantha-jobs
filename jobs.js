@@ -4,93 +4,93 @@ const jobs = [
   // ============================================================
   {
     id: "oa-1",
-    title: "Development Operations Coordinator",
-    company: "The Council on Recovery",
+    title: "Operations Coordinator",
+    company: "Cartier",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Support fundraising, donor stewardship, and campaign efforts through project management, CRM oversight, gift processing, and administrative support for the Planning & Development Department.",
-    url: "https://www.indeed.com/viewjob?jk=bc2925b6fa41020b"
+    source: "LinkedIn",
+    description: "Coordinate daily operations at luxury retailer Cartier's Houston location. Support store leadership with scheduling, inventory, and client experience initiatives.",
+    url: "https://www.linkedin.com/jobs/view/operations-coordinator-houston-at-cartier-4098225710"
   },
   {
     id: "oa-2",
-    title: "OEM Administrative Coordinator",
-    company: "City of Deer Park",
+    title: "Administrative Coordinator",
+    company: "Levy Park",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Provide routine and complex administrative, technical, and clerical work in support of emergency services divisions. Responsible for daily office management of the Office of Emergency Management.",
-    url: "https://www.indeed.com/viewjob?jk=17a736374060dec1"
+    source: "LinkedIn",
+    description: "Coordinate administrative operations for one of Houston's premier urban green spaces. Support programming, events, and day-to-day park management.",
+    url: "https://www.linkedin.com/jobs/view/administrative-coordinator-at-levy-park-4257005259"
   },
   {
     id: "oa-3",
-    title: "Executive Assistant",
-    company: "Satterfield & Pontikes Construction",
+    title: "Executive Assistant / Office Coordinator",
+    company: "Burnett Specialists Staffing",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Provide high-level administrative support to Executive leadership across business and personal matters. Requires a high school diploma (bachelor's preferred) and at least four years of related experience.",
-    url: "https://www.indeed.com/viewjob?jk=547cf405995f4ebb"
+    source: "LinkedIn",
+    description: "Executive Assistant and Office Coordinator role in Uptown Houston. Provide high-level administrative support including calendar management, travel coordination, and project oversight.",
+    url: "https://www.linkedin.com/jobs/view/executive-assistant-office-coordinator-uptown-houston-at-burnett-specialists-staffing-recruiting-4374049701"
   },
   {
     id: "oa-4",
-    title: "Operations Administrator",
-    company: "C3",
+    title: "Office Administrator",
+    company: "Insight Global",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Serve as the primary point of contact for companies seeking to participate in C3 programs. Manage all aspects of the application process and annual renewals.",
-    url: "https://www.indeed.com/viewjob?jk=a934350ff97483d7"
+    source: "LinkedIn",
+    description: "Manage office operations and administrative workflows for Insight Global's Houston location. Oversee facilities, vendor relations, and daily office support.",
+    url: "https://www.linkedin.com/jobs/view/office-administrator-at-insight-global-4370430292"
   },
   {
     id: "oa-5",
-    title: "Regional Operations Manager",
-    company: "The Millennium Group",
+    title: "Senior Operations Coordinator",
+    company: "Flexicrew Technical Services",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Provide leadership and operational support, ensure best practices compliance and client satisfaction. Responsible for training employees and monitoring operations budgets.",
-    url: "https://www.indeed.com/viewjob?jk=e3aa2ed9aebc7efb"
+    source: "LinkedIn",
+    description: "Senior-level operations coordination role in Houston. Manage project logistics, client communications, and ensure operational efficiency across technical service engagements.",
+    url: "https://www.linkedin.com/jobs/view/senior-operations-coordinator-at-flexicrew-technical-services-4288066696"
   },
   {
     id: "oa-6",
     title: "Project Coordinator",
-    company: "Enbridge (via Raise)",
+    company: "FirePro Tech, LLC",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Coordinate the project team to achieve quality results in a cost-effective and timely manner. Hybrid role requiring 5-10 years of project-related support experience.",
-    url: "https://www.indeed.com/viewjob?jk=3a8d9d902a44ed4d"
+    source: "LinkedIn",
+    description: "Coordinate with clients, vendors, and internal teams at a full-service fire protection company. Knowledge of construction industry and building codes a plus. PMP certification preferred.",
+    url: "https://www.linkedin.com/jobs/view/project-coordinator-at-firepro-tech-llc-3705685537"
   },
   {
     id: "oa-7",
-    title: "Senior Administrative Assistant",
-    company: "San Jacinto College",
+    title: "Administrative Assistant",
+    company: "Hines",
     location: "houston",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Interface daily with students, administrators, departments, and faculty. Enter student data and maintain computer-based records. Requires three years of office or administrative support experience.",
-    url: "https://www.indeed.com/viewjob?jk=a1aca56a2a74c451"
+    source: "LinkedIn",
+    description: "Provide administrative support at Hines, a global real estate investment firm headquartered in Houston. Handle scheduling, correspondence, and office coordination.",
+    url: "https://www.linkedin.com/jobs/view/administrative-assistant-at-hines-4299389862"
   },
   {
     id: "oa-rem-1",
-    title: "Remote Operations Coordinator",
-    company: "Sales Operations Coordinator — TriSMART Solar",
+    title: "Executive Assistant (Fully Remote)",
+    company: "33Vincent / Base",
     location: "remote",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Full-time position at $50K-$55K/year. Connect homeowners, sales reps, and the solar install team. Coordinate operations and manage project timelines remotely.",
-    url: "https://www.indeed.com/viewjob?jk=023a11a84145ccab"
+    source: "LinkedIn",
+    description: "Create and determine your own workflow as a remote Executive Assistant. Manage your hours, work product, and client interactions independently. US-based remote position.",
+    url: "https://www.linkedin.com/jobs/view/executive-assistant-fully-remote-at-33vincent-3114060814"
   },
   {
     id: "oa-rem-2",
-    title: "Virtual Executive Assistant",
+    title: "Virtual Executive Assistant (Remote)",
     company: "Zirtual",
     location: "remote",
     category: "operations-admin",
-    source: "Indeed",
-    description: "Work-life balanced company offering remote executive assistant services. Requires Associate's/Bachelor's degree or 7+ years EA experience supporting C-level executives. 1099 contractor, flexible scheduling.",
-    url: "https://www.indeed.com/viewjob?jk=87f40b29716732a2"
+    source: "LinkedIn",
+    description: "Provide high-level professional administrative service to clients remotely. Work independently on tasks and projects as assigned. Requires Associate's/Bachelor's degree or equivalent EA experience.",
+    url: "https://www.linkedin.com/jobs/view/executive-assistant-remote-at-zirtual-2921438979"
   },
 
   // ============================================================
@@ -98,93 +98,93 @@ const jobs = [
   // ============================================================
   {
     id: "bt-1",
-    title: "Bilingual Administrative Assistant (Spanish)",
-    company: "Meneses Law PLLC",
+    title: "Bilingual Administrative Assistant",
+    company: "MK Personnel",
     location: "houston",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Manage daily administrative operations at a Houston immigration law firm. Bilingual English/Spanish required. Support clients seeking legal solutions with comprehensive benefits included.",
-    url: "https://www.indeed.com/viewjob?jk=66af145d74ff80df"
+    source: "LinkedIn",
+    description: "Growing firm near Downtown Houston seeking an ambitious Bilingual Administrative Assistant. Degree highly preferred with 1-3 years office experience. Fluent Spanish required.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-administrative-assistant-at-mk-personnel-2824940838"
   },
   {
     id: "bt-2",
-    title: "Bilingual Customer Service Representative",
-    company: "Mygrant Glass",
+    title: "Bilingual (Spanish) Customer Service Rep",
+    company: "GEICO",
     location: "houston",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Serve as the first point of contact for English- and Spanish-speaking customers. Provide outstanding support, handle inquiries, and ensure customer satisfaction at this growing company.",
-    url: "https://www.indeed.com/viewjob?jk=20666d0a6b278d72"
+    source: "LinkedIn",
+    description: "Serve as the bilingual point of contact for Spanish- and English-speaking customers at GEICO's Houston office. Handle inquiries, policy changes, and claims support.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-spanish-customer-service-rep-houston-tx-at-geico-4043099001"
   },
   {
     id: "bt-3",
-    title: "Traveling Operations Coordinator (Bilingual)",
-    company: "Effex Management Solutions",
+    title: "Bilingual Customer Service Representative",
+    company: "Perfection Staffing",
     location: "houston",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Launch new client sites and support on-the-ground operations nationwide. Houston-based with travel, $50K base plus bonuses. Bilingual skills essential for diverse workforce coordination.",
-    url: "https://www.indeed.com/viewjob?jk=ba714a8dd330f515"
+    source: "LinkedIn",
+    description: "Bilingual English/Spanish Customer Service Representative in Houston. Coordinate appointments with families and discuss relocation processes. Strong communication skills required.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-english-spanish-customer-service-representative-i-at-perfection-staffing-3717936437"
   },
   {
     id: "bt-4",
-    title: "Bilingual Recruiting Coordinator",
-    company: "Elevate Human Capital",
+    title: "Bilingual Contact Center Representative",
+    company: "First Service Credit Union",
     location: "houston",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Provide administrative and clerical support for the recruiting and onboarding team in South Houston. Bilingual skills essential for coordinating with a diverse workforce across multiple industries.",
-    url: "https://www.indeed.com/viewjob?jk=2b24e50fe4172535"
+    source: "LinkedIn",
+    description: "Bilingual Spanish-speaking role at 16430 Park Ten Pl, Houston. Handle member needs via telephone, fax, and email including loans and account services. $300 sign-on bonus included.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-spanish-speaking-contact-center-representative-%E2%80%8B-at-first-service-credit-union-3442901494"
   },
   {
     id: "bt-5",
-    title: "Bilingual Front Desk Receptionist",
-    company: "North Houston Pole Line (Quanta Services)",
+    title: "Administrative Support Specialist (Bilingual)",
+    company: "Harris County",
     location: "houston",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Create a welcoming atmosphere in a fast-paced construction office. Bilingual English/Spanish required. Must be warm, organized, and confident handling phones, scheduling, and visitors.",
-    url: "https://www.indeed.com/viewjob?jk=8b395a36e3fe31a3"
+    source: "LinkedIn",
+    description: "Provide administrative and programmatic support to the Refugee Health Services program under the Harris County Public Health department. Bilingual in Spanish, Arabic, Vietnamese, or Dari preferred.",
+    url: "https://www.linkedin.com/jobs/view/specialist-administrative-support-at-harris-county-3100980415"
   },
   {
     id: "bt-rem-1",
-    title: "Remote Spanish Interpreter",
-    company: "Certified Languages International",
+    title: "Remote Spanish/English Interpreter",
+    company: "Kelly Services",
     location: "remote",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "100% over-the-phone interpretation, high volume of medical calls. Work from home as an independent contractor with flexible scheduling. Requires 2+ years professional OPI experience.",
-    url: "https://www.indeed.com/viewjob?jk=9b41d58b72a45c63"
+    source: "LinkedIn",
+    description: "Work from home interpreting high-volume inbound calls across healthcare, government, insurance, and hospitality. Must reside in the US or Puerto Rico. Video interpreting required.",
+    url: "https://www.linkedin.com/jobs/view/remote-spanish-english-interpreters-at-kelly-3787885216"
   },
   {
     id: "bt-rem-2",
-    title: "Localization Specialist (Remote)",
-    company: "Soho Square Solutions",
+    title: "Remote Spanish Interpreter (Texas)",
+    company: "Kelly Services",
     location: "remote",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Requires knowledge of localization issues and cross-cultural awareness. Experience with MS Word, Excel, and specialized technical programs. Knowledge of The Chicago Manual of Style preferred.",
-    url: "https://www.indeed.com/viewjob?jk=5e97c0c3675fa82b"
+    source: "LinkedIn",
+    description: "Bilingual Call Center Interpreter role specifically for Texas residents. Handle telephone calls on demand from a quiet home office, translating across healthcare and government settings.",
+    url: "https://www.linkedin.com/jobs/view/remote-opportunities-in-texas-for-english-spanish-interpreters-at-kelly-3383426972"
   },
   {
     id: "bt-rem-3",
-    title: "Japanese Interpreter (Remote)",
-    company: "LanguageBridge Solutions",
+    title: "Remote Japanese/English Interpreter & Translator",
+    company: "OSI Engineering",
     location: "remote",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "US-based Japanese and English remote speakers needed for over-the-phone interpreting. Vital role in communication between Japanese-speaking patients and healthcare providers.",
-    url: "https://www.indeed.com/viewjob?jk=db83dbfb0482302b"
+    source: "LinkedIn",
+    description: "Remote Japanese/English interpretation and translation for a global automotive company. Morning shift. Professional-level fluency in both Japanese and English required.",
+    url: "https://www.linkedin.com/jobs/view/remote-japanese-english-interpreter-and-translator-for-global-automotive-company-in-raymond-oh-morning-shift-at-osi-engineering-4259926183"
   },
   {
     id: "bt-rem-4",
-    title: "Bilingual Virtual Assistant",
-    company: "Virtual Staffing Careers",
+    title: "Japanese Translator & Interpreter (Hybrid)",
+    company: "Lions Clubs International",
     location: "remote",
     category: "bilingual-translation",
-    source: "Indeed",
-    description: "Legal Virtual Assistant role requiring bilingual English/Spanish at C1 level. Manage legal documents, communicate with clients, handle scheduling, and maintain case files remotely.",
-    url: "https://www.indeed.com/viewjob?jk=7413850215e505e8"
+    source: "LinkedIn",
+    description: "Translate correspondence and publications from English to Japanese and vice versa. Handle voice-over, subtitling, and simultaneous interpretation at board meetings and international conventions.",
+    url: "https://www.linkedin.com/jobs/view/japanese-translator-interpreter-ft-hybrid-at-lions-clubs-international-3770193285"
   },
 
   // ============================================================
@@ -192,83 +192,83 @@ const jobs = [
   // ============================================================
   {
     id: "te-1",
-    title: "ESL Teacher",
-    company: "English 4U Texas",
+    title: "Adult Education Instructor — ESL",
+    company: "BakerRipley",
     location: "houston",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Teach English as a Second Language at the Greenspoint school location. $18/hr contract basis. Bilingual Spanish-English and teaching experience preferred. Must have excellent English proficiency.",
-    url: "https://www.indeed.com/viewjob?jk=0248b4159ffd0107"
+    source: "LinkedIn",
+    description: "Provide quality ESL instruction to adult learners, integrating meaningful classroom activities. Teach ESL and digital literacy in online or community center settings. Bachelor's in Education required.",
+    url: "https://www.linkedin.com/jobs/view/adult-education-instructor-esl-at-bakerripley-2886329157"
   },
   {
     id: "te-2",
-    title: "Bilingual/ESL Teacher Assistant",
-    company: "Spring Branch ISD",
+    title: "ESL Lecturer",
+    company: "Rice University",
     location: "houston",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Bilingual/ESL (LEP) Teacher Assistant position (half-time) for the 2025-2026 school year. Support bilingual learners in a paraprofessional role at one of Houston's largest school districts.",
-    url: "https://www.indeed.com/viewjob?jk=bf37f8b3c22aa65e"
+    source: "LinkedIn",
+    description: "Full-time, benefits-eligible lecturer position teaching and designing curricula for multilingual students. 12-month appointment with renewable contracts and conference travel funding.",
+    url: "https://www.linkedin.com/jobs/view/esl-lecturer-at-rice-university-3397117787"
   },
   {
     id: "te-3",
-    title: "ESL Instructor",
-    company: "Interactive College of Technology",
+    title: "Bilingual Self-Contained Teacher",
+    company: "Alief ISD",
     location: "houston",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Full-time ESL instruction at the South Houston Campus serving students from 100+ countries. Benefits include medical, dental, vision, and 401(k). Part-time adjunct positions also available.",
-    url: "https://www.indeed.com/viewjob?jk=973982620de54be5"
+    source: "LinkedIn",
+    description: "3rd grade bilingual teaching position at Boone Elementary in Alief ISD. Requires valid Texas teaching certificate with required endorsements and ESL certification.",
+    url: "https://www.linkedin.com/jobs/view/re-post-3rd-grade-bilingual-self-contained-teacher-@-boone-elementary-at-alief-independent-school-district-3367196030"
   },
   {
     id: "te-4",
-    title: "Student Life Assistant — Events & Programs",
-    company: "Houston Community College",
+    title: "Special Projects Coordinator",
+    company: "YES Prep Public Schools",
     location: "houston",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Assist in developing, coordinating, and evaluating student events and activities. Support the Student Life Coordinator with program management and implementation at NW College.",
-    url: "https://www.indeed.com/viewjob?jk=bb963808557dda3a"
+    source: "LinkedIn",
+    description: "Maximize efficiency of the Chief Program Officer and Program Leadership Team through high-level administrative and operational support. $47,900-$56,000/year.",
+    url: "https://www.linkedin.com/jobs/view/special-projects-coordinator-immediate-opening-at-yes-prep-public-schools-2871238467"
   },
   {
     id: "te-rem-1",
-    title: "Online English Teacher",
-    company: "SetSail Global",
+    title: "Online ESL Teacher (Remote)",
+    company: "EF Teach Online",
     location: "remote",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Provide English Language Arts instruction to students ages 6-17. Curriculum focuses on reading comprehension, writing development, debate skills, and critical thinking. Flexible remote schedule.",
-    url: "https://www.indeed.com/viewjob?jk=b9e08d1bac48388b"
+    source: "LinkedIn",
+    description: "Teach English online with EF Education First, one of the world's largest education companies. Flexible remote schedule with pay based on skills and experience.",
+    url: "https://www.linkedin.com/jobs/view/online-esl-teacher-at-ef-teach-online-3825740507"
   },
   {
     id: "te-rem-2",
-    title: "Online ESL Teacher (Fully Remote)",
-    company: "My Virtual Academy",
+    title: "Remote ESL Teacher",
+    company: "TeachCast",
     location: "remote",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Join the Virtual English Language Instruction Program helping K-12 students find their voice in a new language. Fully remote position with a mission-driven online school.",
-    url: "https://www.indeed.com/viewjob?jk=73f74013dfd0ed77"
+    source: "LinkedIn",
+    description: "Teach ESL to students in Indonesia as part of their mandatory English program. One of the only ESL companies that pays by hourly blocks, not by number of classes. Late evening/early morning hours.",
+    url: "https://www.linkedin.com/jobs/view/remote-esl-teacher-late-evening-early-morning-at-teachcast-3680929939"
   },
   {
     id: "te-rem-3",
-    title: "Curriculum Developer (Remote)",
-    company: "Correlation One",
+    title: "Online ESL Teacher (Remote)",
+    company: "TESOL International Association",
     location: "remote",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Draft and write lessons as contextual business case studies, self-paced labs, and homework assignments. Part-time contract supporting AI education initiatives for high school students.",
-    url: "https://www.indeed.com/viewjob?jk=79041f03389705bc"
+    source: "LinkedIn",
+    description: "Remote ESL teaching position listed through TESOL International Association, the global authority on teaching English to speakers of other languages.",
+    url: "https://www.linkedin.com/jobs/view/online-esl-teacher-remote-at-tesol-international-association-4020112252"
   },
   {
     id: "te-rem-4",
-    title: "Curriculum Designer (Remote)",
-    company: "Client Engagement Academy",
+    title: "Online ESL Teacher (Remote)",
+    company: "Get It Recruit — Educational Services",
     location: "remote",
     category: "teaching-education",
-    source: "Indeed",
-    description: "Translate client training needs into engaging educational courses. Select instructional methods, define timeframes, and prepare training materials in digital formats. Fully remote position.",
-    url: "https://www.indeed.com/viewjob?jk=7519216d665f9a20"
+    source: "LinkedIn",
+    description: "Teach ESL and pronunciation remotely via Skype. Part-time contract up to 30 hrs/week. Requires Bachelor's in Linguistics/English or TEFL/TESOL certificate. Starting at $15/hr, up to $25/hr.",
+    url: "https://www.linkedin.com/jobs/view/online-esl-teacher-remote-wfh-at-get-it-recruit-educational-services-3452569677"
   },
 
   // ============================================================
@@ -276,83 +276,83 @@ const jobs = [
   // ============================================================
   {
     id: "hs-1",
-    title: "Restaurant Manager",
-    company: "Caribbean Jerk Palace",
+    title: "Restaurant Manager & Kitchen Manager",
+    company: "Pappas Bros. Steakhouse",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Oversee daily operations at a Houston restaurant with a strong food industry background. Manage kitchen staff including cooks and bartenders, handle cash management and financial reporting.",
-    url: "https://www.indeed.com/viewjob?jk=9ee249ffd3772904"
+    source: "LinkedIn",
+    description: "Lead restaurant and kitchen operations at Pappas Bros. Steakhouse, one of Houston's premier fine dining destinations. Manage staff, service quality, and guest experiences.",
+    url: "https://www.linkedin.com/jobs/view/restaurant-manager-and-kitchen-manager-pappas-bros-steakhouse-at-pappas-restaurants-inc-4239712351"
   },
   {
     id: "hs-2",
-    title: "Bar Manager",
-    company: "Mac Haik Restaurant Group — Kirkwood",
+    title: "Restaurant Manager / Maitre D'",
+    company: "Lombardi Family Concepts",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Lead a bar program from the ground up at Houston's newest upscale dining destination. Manage inventory, recruit and train bartenders, deliver world-class guest experiences. $55K+ plus bonus.",
-    url: "https://www.indeed.com/viewjob?jk=64514e5bcb97be36"
+    source: "LinkedIn",
+    description: "Lead front-of-house operations as Restaurant Manager and Maitre D' at a Lombardi Family Concepts restaurant in Houston. Deliver exceptional dining experiences and manage service staff.",
+    url: "https://www.linkedin.com/jobs/view/restaurant-manager-maitre-d-at-lombardi-family-concepts-inc-4317715305"
   },
   {
     id: "hs-3",
-    title: "Hotel Restaurant Manager",
-    company: "Davidson Hospitality Group — Le Meridien Houston",
+    title: "Culinary Manager",
+    company: "Hillstone Restaurant Group",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Take charge of the restaurant at Le Meridien Houston Downtown where culinary excellence meets top-notch service. Drive guest satisfaction and ensure smooth daily operations.",
-    url: "https://www.indeed.com/viewjob?jk=64eaabaa0e60edd0"
+    source: "LinkedIn",
+    description: "Manage culinary operations at Hillstone Restaurant Group's Houston location. Oversee kitchen staff, menu execution, food quality, and operational efficiency.",
+    url: "https://www.linkedin.com/jobs/view/culinary-manager-at-hillstone-restaurant-group-4286646402"
   },
   {
     id: "hs-4",
-    title: "Event Coordinator",
-    company: "Walters Wedding Estates",
+    title: "Community Events Coordinator",
+    company: "ADA Business Solutions",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Ensure venue guests have the best experience. Lead rehearsal activities, oversee ceremony processionals, and coordinate receptions. Detail-oriented with strong communication skills required.",
-    url: "https://www.indeed.com/viewjob?jk=d41461e3ac7cec6b"
+    source: "LinkedIn",
+    description: "Plan and coordinate community events in the Houston area. Manage event logistics, vendor relationships, and ensure successful execution of programs and activities.",
+    url: "https://www.linkedin.com/jobs/view/community-events-coordinator-at-ada-business-solutions-4144140787"
   },
   {
     id: "hs-5",
-    title: "Hotel Front Desk Manager",
-    company: "Days Inn & Suites — Southwest Houston",
+    title: "Front Desk Agent",
+    company: "The Post Oak Hotel at Uptown Houston",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Manage front desk operations, rent rooms, provide customer service, and handle reservations. Located in Southwest Houston on Highway 6. $37K-$42K/year.",
-    url: "https://www.indeed.com/viewjob?jk=6fec6423473b2b21"
+    source: "LinkedIn",
+    description: "Provide exceptional guest services at The Post Oak Hotel, Houston's premier luxury hotel in the Uptown/Galleria area. Handle check-ins, reservations, and concierge requests.",
+    url: "https://www.linkedin.com/jobs/view/front-desk-agent-at-the-post-oak-hotel-at-uptown-houston-4297967582"
   },
   {
     id: "hs-6",
-    title: "Catering Sales Event Planner",
-    company: "Swift + Company",
+    title: "Marketing & Events Coordinator",
+    company: "Affinity Management Group",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Manage and produce events from conception through completion. Committed to outstanding customer service and organizing unique, memorable events. Full-time at a growing events company.",
-    url: "https://www.indeed.com/viewjob?jk=c2b808616e4874d2"
+    source: "LinkedIn",
+    description: "Coordinate marketing initiatives and events in the Greater Houston area. Manage event planning, promotional materials, and community engagement activities.",
+    url: "https://www.linkedin.com/jobs/view/marketing-events-coordinator-at-affinity-management-group-4280881862"
   },
   {
     id: "hs-7",
-    title: "Food & Beverage Manager",
-    company: "Lone Star Market",
+    title: "Director of Food and Beverage",
+    company: "Lensa",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Ensure smooth kitchen operations at a convenience store, meeting sales targets and food cost goals. Train, supervise, and evaluate staff. Leadership and customer service skills essential.",
-    url: "https://www.indeed.com/viewjob?jk=51bb6e2f0d79d65e"
+    source: "LinkedIn",
+    description: "Lead food and beverage operations at a Houston hospitality property. Develop strategy, manage teams, control costs, and ensure exceptional dining service standards.",
+    url: "https://www.linkedin.com/jobs/view/director-of-food-and-beverage-at-lensa-4286627987"
   },
   {
     id: "hs-8",
-    title: "Assistant Food & Beverage Director",
-    company: "La Colombe D'or",
+    title: "Restaurant Manager",
+    company: "Landry's",
     location: "houston",
     category: "hospitality",
-    source: "Indeed",
-    description: "Key role in the F&B department at La Colombe D'or. Drive strategies to develop long-term business relationships, make on-site presentations, and conduct outside sales calls.",
-    url: "https://www.indeed.com/viewjob?jk=4285aa1b53276293"
+    source: "LinkedIn",
+    description: "Manage restaurant operations at Landry's, Houston's iconic hospitality and entertainment company. Oversee staff, service quality, and daily operations.",
+    url: "https://www.linkedin.com/jobs/view/restaurant-manager-at-landry-s-4262184155"
   },
 
   // ============================================================
@@ -361,72 +361,72 @@ const jobs = [
   {
     id: "mc-1",
     title: "Marketing Coordinator",
-    company: "Baxter & Woodman Inc",
+    company: "Softbase Systems",
     location: "houston",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Maintain marketing information systems, develop proposals and presentations, and support Business Development. Bachelor's in Marketing/Communications, Adobe InDesign proficiency required.",
-    url: "https://www.indeed.com/viewjob?jk=d23a8680af2bcdba"
+    source: "LinkedIn",
+    description: "Coordinate marketing activities and campaigns for Softbase Systems in Houston. Support content creation, campaign execution, and marketing analytics.",
+    url: "https://www.linkedin.com/jobs/view/marketing-coordinator-at-softbase-systems-4370735664"
   },
   {
     id: "mc-2",
-    title: "Social Media and Brand Coordinator",
-    company: "TMD Staffing",
+    title: "Marketing & Events Coordinator",
+    company: "Affinity Management Group",
     location: "houston",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Develop and execute social media strategy across Facebook, Instagram, TikTok, and LinkedIn. 2+ years managing business social media accounts. Experience with Meta Business Suite and Canva required.",
-    url: "https://www.indeed.com/viewjob?jk=975bc7b8c35efd2a"
+    source: "LinkedIn",
+    description: "Support marketing strategy, coordination, and execution of business area initiatives and events in the Greater Houston region. Manage social media and promotional materials.",
+    url: "https://www.linkedin.com/jobs/view/marketing-events-coordinator-at-affinity-management-group-4280881862"
   },
   {
     id: "mc-3",
     title: "Graphic Designer",
-    company: "On-Board Services",
+    company: "Harris County Engineering Department",
     location: "houston",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Create visual content for marketing campaigns, social media, and print materials in Houston. Proficiency in design tools and strong visual communication skills required.",
-    url: "https://www.indeed.com/viewjob?jk=6179aced1e352125"
+    source: "LinkedIn",
+    description: "Design visuals for print and electronic media including publications, brochures, signs, banners, emails, video, and web pages. Requires 5+ years experience and expert Adobe proficiency.",
+    url: "https://www.linkedin.com/jobs/view/graphic-designer-at-harris-county-engineering-department-3414162111"
   },
   {
     id: "mc-4",
-    title: "Marketing Communications Specialist",
-    company: "Grocery Services, Inc.",
+    title: "Director of Marketing and Communications",
+    company: "Interfaith Ministries for Greater Houston",
     location: "houston",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Entry-level marketing communications role at a retail partner specializing in the WIC supplemental food program. Serve the Greater Houston Area with community-focused marketing initiatives.",
-    url: "https://www.indeed.com/viewjob?jk=4569997744386411"
+    source: "LinkedIn",
+    description: "Manage communications to stakeholders including donors, media, community leaders, and public officials. Lead marketing strategy for one of Houston's largest social service nonprofits.",
+    url: "https://www.linkedin.com/jobs/view/director-of-marketing-and-communications-at-interfaith-ministries-for-greater-houston-3804445377"
   },
   {
     id: "mc-5",
     title: "Marketing Specialist",
-    company: "Cenikor Foundation",
+    company: "SLB (Schlumberger)",
     location: "houston",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Manage digital marketing plan implementation, printed materials, website, and social media for a substance abuse and healthcare nonprofit. 1+ year marketing experience required.",
-    url: "https://www.indeed.com/viewjob?jk=9f187d8507588c0b"
+    source: "LinkedIn",
+    description: "Lead execution of marketing campaigns and partner with product teams at SLB, a global technology company headquartered in Houston. Support brand initiatives and market positioning.",
+    url: "https://www.linkedin.com/jobs/view/marketing-specialist-at-slb-3435919779"
   },
   {
     id: "mc-rem-1",
-    title: "Remote Social Media Manager",
-    company: "Hilton",
+    title: "Social Media Marketing Manager (US Remote)",
+    company: "Luxury Presence",
     location: "remote",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Shape the social media presence of Hilton's Lifestyle brands portfolio. Develop and execute social strategies that enhance brand reputation and drive engagement. Contract role, Eastern time preferred.",
-    url: "https://www.indeed.com/viewjob?jk=d5a442dd9c8ce417"
+    source: "LinkedIn",
+    description: "Lead social media strategy for the fastest-growing digital platform for real estate agents and brokerages. Requires world-class content creation skills and seasoned social media expertise.",
+    url: "https://www.linkedin.com/jobs/view/social-media-marketing-manager-us-remote-at-luxury-presence-3912304620"
   },
   {
     id: "mc-rem-2",
-    title: "Remote Marketing Coordinator",
-    company: "RSAC (Cybersecurity Conference)",
+    title: "Social Media Manager — B2B Tech (Remote)",
+    company: "Stage 4 Solutions",
     location: "remote",
     category: "marketing-comms",
-    source: "Indeed",
-    description: "Support go-to-market strategies and multi-channel campaigns for the cybersecurity industry's premier conference. Fully remote team operating across the United States.",
-    url: "https://www.indeed.com/viewjob?jk=7cac0895f0e269f3"
+    source: "LinkedIn",
+    description: "Execute and measure social media programs driving awareness and engagement for a high-growth B2B tech company. 6-month contract (potential FTE), 40 hrs/week. W2 with health benefits.",
+    url: "https://www.linkedin.com/jobs/view/social-media-manager-%E2%80%93-b2b-tech-remote-at-stage-4-solutions-3214982729"
   },
 
   // ============================================================
@@ -434,53 +434,53 @@ const jobs = [
   // ============================================================
   {
     id: "wr-1",
-    title: "Content Writer",
-    company: "DISA Global Solutions",
+    title: "Graphic Designer (In-Office)",
+    company: "Design Observer",
     location: "houston",
     category: "writing",
-    source: "Indeed",
-    description: "Create accurate, on-brand content for blogs, website copy, internal/external communications, and newsletters. Collaborate with subject matter experts to produce clear, SEO-friendly copy.",
-    url: "https://www.indeed.com/viewjob?jk=8556a57bf3f9833e"
+    source: "LinkedIn",
+    description: "In-office graphic design and visual content creation role at Design Observer in Houston. Produce creative assets for print and digital media.",
+    url: "https://www.linkedin.com/jobs/view/graphic-designer-in-office-at-design-observer-4145161023"
   },
   {
     id: "wr-2",
-    title: "Editorial Assistant (Remote)",
-    company: "Advantage Informatics",
+    title: "Copywriter (Remote)",
+    company: "Legrand, North America",
     location: "remote",
     category: "writing",
-    source: "Indeed",
-    description: "Support day-to-day publishing operations across online and print news portfolio. Aid in content production including CMS management, copy editing, fact-checking, and contributor communication.",
-    url: "https://www.indeed.com/viewjob?jk=6e6bd15d1fe7bda6"
+    source: "LinkedIn",
+    description: "Support marketing communications including product launches, web content, and editorial writing for the Wiremold Team. Requires 3-5 years of copywriting or content development experience.",
+    url: "https://www.linkedin.com/jobs/view/copywriter-remote-at-legrand-north-america-2818093888"
   },
   {
     id: "wr-rem-1",
-    title: "Freelance Content Writer",
-    company: "Various Companies",
+    title: "Corporate Content Writer (Remote)",
+    company: "First American Title",
     location: "remote",
     category: "writing",
-    source: "Indeed",
-    description: "Create well-researched, original content for websites, blogs, press releases, and case studies. 2-6 years experience required with strong grasp of writing for tech and mobile app development.",
-    url: "https://www.indeed.com/viewjob?jk=4bbcfb54cf6e659a"
+    source: "LinkedIn",
+    description: "Edit, create, and manage corporate-driven content for websites and marketing materials. Requires 3+ years of online copywriting experience including SEO/SEM writing technique.",
+    url: "https://www.linkedin.com/jobs/view/corporate-content-writer-remote-at-first-american-title-2982835593"
   },
   {
     id: "wr-rem-2",
-    title: "Remote Content Writer",
-    company: "Served With Honor",
+    title: "Content Writer (Remote) — $100K/year",
+    company: "Crossover",
     location: "remote",
     category: "writing",
-    source: "Indeed",
-    description: "100% remote content writer position at $67,800/year ($32.60/hr). Evaluate analytics, regularly submit website content, and promote the company blog by pitching articles to third-party platforms.",
-    url: "https://www.indeed.com/viewjob?jk=69946222760530c4"
+    source: "LinkedIn",
+    description: "Turn AI-generated drafts into compelling marketing narratives. $50/hr ($100K/year). Requires 3+ years creating written content for B2C or D2C audiences. Blend cutting-edge AI with human creativity.",
+    url: "https://www.linkedin.com/jobs/view/content-writer-remote-$100-000-year-usd-at-crossover-3901743195"
   },
   {
     id: "wr-rem-3",
-    title: "Copywriter (Remote)",
-    company: "Snapfish / Shutterfly",
+    title: "Associate Content Writer (Remote)",
+    company: "Breaktime Media",
     location: "remote",
     category: "writing",
-    source: "Indeed",
-    description: "Write across marketing channels with focus on email, website, app, SMS, and paid social. 3+ years copywriting experience in digital-forward retail/ecommerce. Remote with state restrictions.",
-    url: "https://www.indeed.com/viewjob?jk=a53d61d85ad0cadf"
+    source: "LinkedIn",
+    description: "Craft copy and develop rich, engaging content for advertising campaigns, editorial content, and email marketing. Work closely with Lead Content Producer on client campaigns and creative ideation.",
+    url: "https://www.linkedin.com/jobs/view/associate-content-writer-remote-at-breaktime-media-3126243766"
   },
   {
     id: "wr-rem-4",
@@ -488,8 +488,8 @@ const jobs = [
     company: "Dropbox",
     location: "remote",
     category: "writing",
-    source: "Indeed",
-    description: "Shape and strengthen the Dropbox voice within high-impact marketing initiatives on the Writing Studio team. $128K-$196K depending on location. Accomplished copywriter, editor, and story strategist needed.",
-    url: "https://www.indeed.com/viewjob?jk=62010cdf36ada390"
+    source: "LinkedIn",
+    description: "Shape and strengthen the Dropbox voice within high-impact marketing initiatives. 6+ years experience in copywriting, editorial content, or journalism. $128K-$196K plus RSUs.",
+    url: "https://www.linkedin.com/jobs/view/marketing-copywriter-editor-remote-at-dropbox-4365892107"
   }
 ];
