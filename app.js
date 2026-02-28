@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="job-description">${job.description}</div>
           <div class="job-card-actions">
-            <a href="${job.url}" target="_blank" rel="noopener noreferrer" class="btn-apply">View Listing &rarr;</a>
+            <a href="${job.url}" target="_blank" rel="noopener noreferrer" class="btn-apply">View Listing</a>
             <button class="btn-save ${isSaved ? 'saved' : ''}" onclick="toggleSave('${job.id}')">
               ${isSaved ? 'Saved' : 'Save'}
             </button>
