@@ -1,96 +1,96 @@
 const jobs = [
   // ============================================================
-  // CATEGORY 1: Operations & Admin — Houston, TX
+  // CATEGORY 1: Operations & Admin — Houston, TX & Remote
   // ============================================================
   {
     id: "oa-1",
-    title: "Operations Coordinator",
-    company: "Cartier",
+    title: "Senior Executive Assistant",
+    company: "Primary Services",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Coordinate daily operations at luxury retailer Cartier's Houston location. Support store leadership with scheduling, inventory, and client experience initiatives.",
-    url: "https://www.linkedin.com/jobs/view/operations-coordinator-houston-at-cartier-4098225710"
+    description: "Senior-level executive assistant supporting leadership in Houston, TX. Calendar management, travel coordination, and high-level administrative support for executives.",
+    url: "https://www.linkedin.com/jobs/view/senior-executive-assistant-at-primary-services-4425267913"
   },
   {
     id: "oa-2",
-    title: "Administrative Coordinator",
-    company: "Levy Park",
+    title: "Administrative Assistant",
+    company: "Brooksource",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Coordinate administrative operations for one of Houston's premier urban green spaces. Support programming, events, and day-to-day park management.",
-    url: "https://www.linkedin.com/jobs/view/administrative-coordinator-at-levy-park-4257005259"
+    description: "Administrative support role in Houston, TX via consulting firm Brooksource. General office coordination, scheduling, and clerical support.",
+    url: "https://www.linkedin.com/jobs/view/administrative-assistant-at-brooksource-4425269462"
   },
   {
     id: "oa-3",
-    title: "Executive Assistant / Office Coordinator",
-    company: "Burnett Specialists Staffing",
+    title: "Executive Assistant",
+    company: "Houston City Personnel",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Executive Assistant and Office Coordinator role in Uptown Houston. Provide high-level administrative support including calendar management, travel coordination, and project oversight.",
-    url: "https://www.linkedin.com/jobs/view/executive-assistant-office-coordinator-uptown-houston-at-burnett-specialists-staffing-recruiting-4374049701"
+    description: "Executive assistant placement in Houston, TX. Calendar management, scheduling, and executive support for a local employer.",
+    url: "https://www.linkedin.com/jobs/view/executive-assistant-at-houston-city-personnel-4412927983"
   },
   {
     id: "oa-4",
-    title: "Office Administrator",
-    company: "Insight Global",
+    title: "Executive Assistant",
+    company: "Critical Project Services",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Manage office operations and administrative workflows for Insight Global's Houston location. Oversee facilities, vendor relations, and daily office support.",
-    url: "https://www.linkedin.com/jobs/view/office-administrator-at-insight-global-4370430292"
+    description: "Executive assistant role in Houston, TX supporting executives with administrative coordination and project support.",
+    url: "https://www.linkedin.com/jobs/view/executive-assistant-at-critical-project-services-4412990337"
   },
   {
     id: "oa-5",
-    title: "Senior Operations Coordinator",
-    company: "Flexicrew Technical Services",
+    title: "Administrative Assistant / Receptionist",
+    company: "Easter Seals Greater Houston",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Senior-level operations coordination role in Houston. Manage project logistics, client communications, and ensure operational efficiency across technical service engagements.",
-    url: "https://www.linkedin.com/jobs/view/senior-operations-coordinator-at-flexicrew-technical-services-4288066696"
+    description: "Combined administrative assistant and front-desk reception role in Houston, TX. Front-office coordination, visitor management, and clerical support for a nonprofit.",
+    url: "https://www.linkedin.com/jobs/view/administrative-assistant-receptionist-at-easter-seals-greater-houston-4424144218"
   },
   {
     id: "oa-6",
-    title: "Project Coordinator",
-    company: "FirePro Tech, LLC",
+    title: "Business Development Coordinator",
+    company: "City of Houston",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Coordinate with clients, vendors, and internal teams at a full-service fire protection company. Knowledge of construction industry and building codes a plus. PMP certification preferred.",
-    url: "https://www.linkedin.com/jobs/view/project-coordinator-at-firepro-tech-llc-3705685537"
+    description: "Operations and administrative coordination role within a City of Houston department. Stakeholder coordination, scheduling, and program support.",
+    url: "https://www.linkedin.com/jobs/view/business-development-coordinator-at-city-of-houston-4421665841"
   },
   {
     id: "oa-7",
-    title: "Administrative Assistant",
-    company: "Hines",
+    title: "C-Suite Executive Assistant",
+    company: "Addison Group",
     location: "houston",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Provide administrative support at Hines, a global real estate investment firm headquartered in Houston. Handle scheduling, correspondence, and office coordination.",
-    url: "https://www.linkedin.com/jobs/view/administrative-assistant-at-hines-4299389862"
+    description: "C-suite executive assistant placement in Greater Houston. High-level support including scheduling, travel, and confidential coordination.",
+    url: "https://www.linkedin.com/jobs/view/c-suite-executive-assistant-at-addison-group-4405818227"
   },
   {
     id: "oa-rem-1",
-    title: "Executive Assistant (Fully Remote)",
-    company: "33Vincent / Base",
+    title: "Remote Operations Coordinator",
+    company: "Talentoma",
     location: "remote",
     category: "operations-admin",
     source: "LinkedIn",
-    description: "Create and determine your own workflow as a remote Executive Assistant. Manage your hours, work product, and client interactions independently. US-based remote position.",
-    url: "https://www.linkedin.com/jobs/view/executive-assistant-fully-remote-at-33vincent-3114060814"
+    description: "Fully remote operations coordinator role. Coordinates day-to-day operations, scheduling, and administrative workflows for a distributed team.",
+    url: "https://www.linkedin.com/jobs/view/remote-operations-coordinator-at-talentoma-4396339930"
   },
   {
     id: "oa-rem-2",
-    title: "Virtual Executive Assistant (Remote)",
-    company: "Zirtual",
+    title: "Executive Assistant / Operations Coordinator (Remote Startup)",
+    company: "Assist World",
     location: "remote",
     category: "operations-admin",
-    source: "LinkedIn",
-    description: "Provide high-level professional administrative service to clients remotely. Work independently on tasks and projects as assigned. Requires Associate's/Bachelor's degree or equivalent EA experience.",
-    url: "https://www.linkedin.com/jobs/view/executive-assistant-remote-at-zirtual-2921438979"
+    source: "Lever",
+    description: "Remote executive assistant / operations coordinator supporting two co-founders at an early-stage deep-tech startup. Scheduling, investor coordination, and operational support.",
+    url: "https://jobs.lever.co/assist-world/cee3b689-ebeb-424d-bcc0-9edbe7ec1340"
   },
 
   // ============================================================
@@ -98,93 +98,83 @@ const jobs = [
   // ============================================================
   {
     id: "bt-1",
-    title: "Bilingual Administrative Assistant",
-    company: "MK Personnel",
+    title: "Call Center Specialist — Bilingual Spanish (Behavioral Health)",
+    company: "Legacy Community Health",
     location: "houston",
     category: "bilingual-translation",
     source: "LinkedIn",
-    description: "Growing firm near Downtown Houston seeking an ambitious Bilingual Administrative Assistant. Degree highly preferred with 1-3 years office experience. Fluent Spanish required.",
-    url: "https://www.linkedin.com/jobs/view/bilingual-administrative-assistant-at-mk-personnel-2824940838"
+    description: "Bilingual Spanish/English call center role handling patient inquiries and scheduling for a Houston community health network. Strong fit for trilingual customer-service candidates.",
+    url: "https://www.linkedin.com/jobs/view/call-center-specialist-bilingual-spanish-bh-at-legacy-community-health-4408867489"
   },
   {
     id: "bt-2",
-    title: "Bilingual (Spanish) Customer Service Rep",
-    company: "GEICO",
+    title: "Call Center Specialist — Bilingual Spanish",
+    company: "Legacy Community Health",
     location: "houston",
     category: "bilingual-translation",
     source: "LinkedIn",
-    description: "Serve as the bilingual point of contact for Spanish- and English-speaking customers at GEICO's Houston office. Handle inquiries, policy changes, and claims support.",
-    url: "https://www.linkedin.com/jobs/view/bilingual-spanish-customer-service-rep-houston-tx-at-geico-4043099001"
+    description: "Spanish/English bilingual contact-center position supporting patients across Legacy's Houston-area clinics. Phone-based customer service with high call volume.",
+    url: "https://www.linkedin.com/jobs/view/call-center-specialist-bilingual-spanish-at-legacy-community-health-4407794701"
   },
   {
     id: "bt-3",
-    title: "Bilingual Customer Service Representative",
-    company: "Perfection Staffing",
+    title: "Bilingual Psychologist (Spanish/English) — Psychological Evaluations",
+    company: "The IMA Group",
     location: "houston",
     category: "bilingual-translation",
     source: "LinkedIn",
-    description: "Bilingual English/Spanish Customer Service Representative in Houston. Coordinate appointments with families and discuss relocation processes. Strong communication skills required.",
-    url: "https://www.linkedin.com/jobs/view/bilingual-english-spanish-customer-service-representative-i-at-perfection-staffing-3717936437"
+    description: "Houston-based role conducting Spanish/English psychological evaluations. A bilingual professional listing requiring clinical credentials.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-psychologist-spanish-english-%E2%80%93-psychological-evaluations-houston-tx-at-the-ima-group-4401779113"
   },
   {
     id: "bt-4",
-    title: "Bilingual Contact Center Representative",
-    company: "First Service Credit Union",
+    title: "Middle School Spanish Foreign Language Teacher",
+    company: "Archdiocese of Galveston-Houston",
     location: "houston",
     category: "bilingual-translation",
     source: "LinkedIn",
-    description: "Bilingual Spanish-speaking role at 16430 Park Ten Pl, Houston. Handle member needs via telephone, fax, and email including loans and account services. $300 sign-on bonus included.",
-    url: "https://www.linkedin.com/jobs/view/bilingual-spanish-speaking-contact-center-representative-%E2%80%8B-at-first-service-credit-union-3442901494"
-  },
-  {
-    id: "bt-5",
-    title: "Administrative Support Specialist (Bilingual)",
-    company: "Harris County",
-    location: "houston",
-    category: "bilingual-translation",
-    source: "LinkedIn",
-    description: "Provide administrative and programmatic support to the Refugee Health Services program under the Harris County Public Health department. Bilingual in Spanish, Arabic, Vietnamese, or Dari preferred.",
-    url: "https://www.linkedin.com/jobs/view/specialist-administrative-support-at-harris-county-3100980415"
+    description: "Spanish-language instruction role in Houston requiring native/near-native Spanish fluency. Suitable for a trilingual candidate seeking a language-focused position.",
+    url: "https://www.linkedin.com/jobs/view/middle-school-spanish-foreign-language-teacher-at-archdiocese-of-galveston-houston-4404551018"
   },
   {
     id: "bt-rem-1",
-    title: "Remote Spanish/English Interpreter",
-    company: "Kelly Services",
-    location: "remote",
-    category: "bilingual-translation",
-    source: "LinkedIn",
-    description: "Work from home interpreting high-volume inbound calls across healthcare, government, insurance, and hospitality. Must reside in the US or Puerto Rico. Video interpreting required.",
-    url: "https://www.linkedin.com/jobs/view/remote-spanish-english-interpreters-at-kelly-3787885216"
-  },
-  {
-    id: "bt-rem-2",
-    title: "Remote Spanish Interpreter (Texas)",
-    company: "Kelly Services",
-    location: "remote",
-    category: "bilingual-translation",
-    source: "LinkedIn",
-    description: "Bilingual Call Center Interpreter role specifically for Texas residents. Handle telephone calls on demand from a quiet home office, translating across healthcare and government settings.",
-    url: "https://www.linkedin.com/jobs/view/remote-opportunities-in-texas-for-english-spanish-interpreters-at-kelly-3383426972"
-  },
-  {
-    id: "bt-rem-3",
     title: "Remote Japanese/English Interpreter & Translator",
     company: "OSI Engineering",
     location: "remote",
     category: "bilingual-translation",
     source: "LinkedIn",
-    description: "Remote Japanese/English interpretation and translation for a global automotive company. Morning shift. Professional-level fluency in both Japanese and English required.",
-    url: "https://www.linkedin.com/jobs/view/remote-japanese-english-interpreter-and-translator-for-global-automotive-company-in-raymond-oh-morning-shift-at-osi-engineering-4259926183"
+    description: "Remote Japanese/English interpretation and translation supporting a global automotive client. Excellent match for a Temple University Japan graduate with Japanese fluency.",
+    url: "https://www.linkedin.com/jobs/view/remote-japanese-english-interpreter-and-translator-for-global-automotive-company-in-raymond-oh-at-osi-engineering-4427726638"
   },
   {
-    id: "bt-rem-4",
-    title: "Japanese Translator & Interpreter (Hybrid)",
-    company: "Lions Clubs International",
+    id: "bt-rem-2",
+    title: "Bilingual Paralegal (Spanish/English)",
+    company: "The Mom Project",
     location: "remote",
     category: "bilingual-translation",
     source: "LinkedIn",
-    description: "Translate correspondence and publications from English to Japanese and vice versa. Handle voice-over, subtitling, and simultaneous interpretation at board meetings and international conventions.",
-    url: "https://www.linkedin.com/jobs/view/japanese-translator-interpreter-ft-hybrid-at-lions-clubs-international-3770193285"
+    description: "Remote bilingual Spanish/English paralegal role supporting legal case work. Strong fit for bilingual administrative/legal support.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-paralegal-at-the-mom-project-4422134864"
+  },
+  {
+    id: "bt-rem-3",
+    title: "Remote Bilingual Interpreter (English ⇄ Spanish)",
+    company: "TransPerfect Connect",
+    location: "remote",
+    category: "bilingual-translation",
+    source: "LinkedIn",
+    description: "Work-from-home over-the-phone Spanish/English interpreter handling on-demand calls across healthcare, legal, and customer-service settings.",
+    url: "https://www.linkedin.com/jobs/view/remote-bilingual-interpreter-english-spanish-at-transperfect-connect-4398073057"
+  },
+  {
+    id: "bt-rem-4",
+    title: "Bilingual Interpreter (English-Spanish) — Independent Service",
+    company: "Distro",
+    location: "remote",
+    category: "bilingual-translation",
+    source: "Lever",
+    description: "Remote real-time English-Spanish interpreting between professionals and Spanish-speaking individuals across healthcare, insurance, legal, and customer-service contexts. Flexible part- or full-time.",
+    url: "https://jobs.lever.co/distro/9043ec41-e595-4411-9007-3cd395fb63cf"
   },
 
   // ============================================================
@@ -192,83 +182,83 @@ const jobs = [
   // ============================================================
   {
     id: "te-1",
-    title: "Adult Education Instructor — ESL",
-    company: "BakerRipley",
+    title: "Middle School Spanish Teacher",
+    company: "Presbyterian School of Houston",
     location: "houston",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Provide quality ESL instruction to adult learners, integrating meaningful classroom activities. Teach ESL and digital literacy in online or community center settings. Bachelor's in Education required.",
-    url: "https://www.linkedin.com/jobs/view/adult-education-instructor-esl-at-bakerripley-2886329157"
+    description: "Middle school Spanish teaching role at a private school in Houston, TX. Strong fit for a native/fluent Spanish speaker; classroom instruction for the upcoming school year.",
+    url: "https://www.linkedin.com/jobs/view/middle-school-spanish-teacher-at-presbyterian-school-of-houston-4392918681"
   },
   {
     id: "te-2",
-    title: "ESL Lecturer",
-    company: "Rice University",
+    title: "Teacher — PreK Bilingual (2026-2027 School Year)",
+    company: "Channelview ISD",
     location: "houston",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Full-time, benefits-eligible lecturer position teaching and designing curricula for multilingual students. 12-month appointment with renewable contracts and conference travel funding.",
-    url: "https://www.linkedin.com/jobs/view/esl-lecturer-at-rice-university-3397117787"
+    description: "PreK bilingual (Spanish) teaching openings for the 2026-2027 school year in the Houston metro. Requires Spanish bilingual proficiency.",
+    url: "https://www.linkedin.com/jobs/view/teacher-prek-bilingual-5-positions-2026-2027-school-year-at-channelview-isd-4376659830"
   },
   {
     id: "te-3",
-    title: "Bilingual Self-Contained Teacher",
-    company: "Alief ISD",
+    title: "High School English Language Arts Teacher (2026-2027)",
+    company: "KIPP Texas Public Schools",
     location: "houston",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "3rd grade bilingual teaching position at Boone Elementary in Alief ISD. Requires valid Texas teaching certificate with required endorsements and ESL certification.",
-    url: "https://www.linkedin.com/jobs/view/re-post-3rd-grade-bilingual-self-contained-teacher-@-boone-elementary-at-alief-independent-school-district-3367196030"
+    description: "High school ELA teaching position in Houston, TX for the 2026-2027 school year at a large charter network. ESL/bilingual background a plus.",
+    url: "https://www.linkedin.com/jobs/view/high-school-english-language-arts-teacher-26-27-at-kipp-texas-public-schools-4372109940"
   },
   {
     id: "te-4",
-    title: "Special Projects Coordinator",
-    company: "YES Prep Public Schools",
+    title: "LOTE Spanish Teacher 2026-2027",
+    company: "New Caney Independent School District",
     location: "houston",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Maximize efficiency of the Chief Program Officer and Program Leadership Team through high-level administrative and operational support. $47,900-$56,000/year.",
-    url: "https://www.linkedin.com/jobs/view/special-projects-coordinator-immediate-opening-at-yes-prep-public-schools-2871238467"
+    description: "Languages Other Than English (LOTE) Spanish teacher role for 2026-2027 in the Houston metro (New Caney/Porter, TX). Secondary Spanish instruction.",
+    url: "https://www.linkedin.com/jobs/view/lote-spanish-teacher-2026-2027-at-new-caney-independent-school-district-4380746449"
   },
   {
     id: "te-rem-1",
-    title: "Online ESL Teacher (Remote)",
-    company: "EF Teach Online",
+    title: "Spanish Tutor (Remote)",
+    company: "Tutor Me LA",
     location: "remote",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Teach English online with EF Education First, one of the world's largest education companies. Flexible remote schedule with pay based on skills and experience.",
-    url: "https://www.linkedin.com/jobs/view/online-esl-teacher-at-ef-teach-online-3825740507"
+    description: "Fully remote, flexible-hours Spanish tutoring role. Online one-on-one and small-group tutoring; ideal for a fluent Spanish speaker.",
+    url: "https://www.linkedin.com/jobs/view/spanish-tutor-remote-at-tutor-me-la-llc-4412755252"
   },
   {
     id: "te-rem-2",
-    title: "Remote ESL Teacher",
-    company: "TeachCast",
+    title: "Specialized Online ESL Teacher (Remote)",
+    company: "The Really Great Teacher Company",
     location: "remote",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Teach ESL to students in Indonesia as part of their mandatory English program. One of the only ESL companies that pays by hourly blocks, not by number of classes. Late evening/early morning hours.",
-    url: "https://www.linkedin.com/jobs/view/remote-esl-teacher-late-evening-early-morning-at-teachcast-3680929939"
+    description: "Remote online ESL teaching position delivering English lessons to learners virtually. Flexible scheduling; fits a TESOL/ESL-oriented English instructor.",
+    url: "https://www.linkedin.com/jobs/view/specialized-online-esl-teacher-remote-special-needs-instructor-at-the-really-great-teacher-company-4398561542"
   },
   {
     id: "te-rem-3",
-    title: "Online ESL Teacher (Remote)",
-    company: "TESOL International Association",
+    title: "Online Japanese Teacher — Weekly Tutoring",
+    company: "Sponge School",
     location: "remote",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Remote ESL teaching position listed through TESOL International Association, the global authority on teaching English to speakers of other languages.",
-    url: "https://www.linkedin.com/jobs/view/online-esl-teacher-remote-at-tesol-international-association-4020112252"
+    description: "Remote/online weekly Japanese tutoring role. Direct match for a trilingual candidate with Japanese fluency and a Temple University Japan background.",
+    url: "https://www.linkedin.com/jobs/view/online-japanese-teacher-weekly-tutoring-washington-at-sponge-school-4256590530"
   },
   {
     id: "te-rem-4",
-    title: "Online ESL Teacher (Remote)",
-    company: "Get It Recruit — Educational Services",
+    title: "Higher Education Curriculum Specialist (Remote)",
+    company: "Crossing Hurdles",
     location: "remote",
     category: "teaching-education",
     source: "LinkedIn",
-    description: "Teach ESL and pronunciation remotely via Skype. Part-time contract up to 30 hrs/week. Requires Bachelor's in Linguistics/English or TEFL/TESOL certificate. Starting at $15/hr, up to $25/hr.",
-    url: "https://www.linkedin.com/jobs/view/online-esl-teacher-remote-wfh-at-get-it-recruit-educational-services-3452569677"
+    description: "Remote education coordination / curriculum specialist role supporting higher-ed instructional content. Good fit for education coordination beyond direct classroom teaching.",
+    url: "https://www.linkedin.com/jobs/view/higher-education-curriculum-specialist-$98-hr-remote-at-crossing-hurdles-4369896483"
   },
 
   // ============================================================
@@ -276,83 +266,83 @@ const jobs = [
   // ============================================================
   {
     id: "hs-1",
-    title: "Restaurant Manager & Kitchen Manager",
-    company: "Pappas Bros. Steakhouse",
-    location: "houston",
-    category: "hospitality",
-    source: "LinkedIn",
-    description: "Lead restaurant and kitchen operations at Pappas Bros. Steakhouse, one of Houston's premier fine dining destinations. Manage staff, service quality, and guest experiences.",
-    url: "https://www.linkedin.com/jobs/view/restaurant-manager-and-kitchen-manager-pappas-bros-steakhouse-at-pappas-restaurants-inc-4239712351"
-  },
-  {
-    id: "hs-2",
-    title: "Restaurant Manager / Maitre D'",
-    company: "Lombardi Family Concepts",
-    location: "houston",
-    category: "hospitality",
-    source: "LinkedIn",
-    description: "Lead front-of-house operations as Restaurant Manager and Maitre D' at a Lombardi Family Concepts restaurant in Houston. Deliver exceptional dining experiences and manage service staff.",
-    url: "https://www.linkedin.com/jobs/view/restaurant-manager-maitre-d-at-lombardi-family-concepts-inc-4317715305"
-  },
-  {
-    id: "hs-3",
-    title: "Culinary Manager",
-    company: "Hillstone Restaurant Group",
-    location: "houston",
-    category: "hospitality",
-    source: "LinkedIn",
-    description: "Manage culinary operations at Hillstone Restaurant Group's Houston location. Oversee kitchen staff, menu execution, food quality, and operational efficiency.",
-    url: "https://www.linkedin.com/jobs/view/culinary-manager-at-hillstone-restaurant-group-4286646402"
-  },
-  {
-    id: "hs-4",
-    title: "Community Events Coordinator",
-    company: "ADA Business Solutions",
-    location: "houston",
-    category: "hospitality",
-    source: "LinkedIn",
-    description: "Plan and coordinate community events in the Houston area. Manage event logistics, vendor relationships, and ensure successful execution of programs and activities.",
-    url: "https://www.linkedin.com/jobs/view/community-events-coordinator-at-ada-business-solutions-4144140787"
-  },
-  {
-    id: "hs-5",
-    title: "Front Desk Agent",
+    title: "Food & Beverage Supervisor — Craft F&B",
     company: "The Post Oak Hotel at Uptown Houston",
     location: "houston",
     category: "hospitality",
     source: "LinkedIn",
-    description: "Provide exceptional guest services at The Post Oak Hotel, Houston's premier luxury hotel in the Uptown/Galleria area. Handle check-ins, reservations, and concierge requests.",
-    url: "https://www.linkedin.com/jobs/view/front-desk-agent-at-the-post-oak-hotel-at-uptown-houston-4297967582"
+    description: "F&B supervisory role at Houston's only Forbes Five-Star hotel, overseeing service operations at the Craft food & beverage outlet. Guest-facing leadership ideal for a multilingual professional.",
+    url: "https://www.linkedin.com/jobs/view/food-beverage-supervisor-craft-f-b-at-the-post-oak-hotel-at-uptown-houston-4425085216"
+  },
+  {
+    id: "hs-2",
+    title: "Front Desk Supervisor — Magnolia Houston",
+    company: "Magnolia Hotels",
+    location: "houston",
+    category: "hospitality",
+    source: "LinkedIn",
+    description: "Supervises front desk operations at the downtown Magnolia Houston, leading guest check-in/out and team coordination. Strong fit for a guest-facing, multilingual candidate.",
+    url: "https://www.linkedin.com/jobs/view/front-desk-supervisor-magnolia-houston-at-magnolia-hotels-4424617928"
+  },
+  {
+    id: "hs-3",
+    title: "Assistant Front Desk Manager — Magnolia Houston",
+    company: "Magnolia Hotels",
+    location: "houston",
+    category: "hospitality",
+    source: "LinkedIn",
+    description: "Assists in managing the front office team and elevating the guest experience at Magnolia Houston. A step-up leadership role for an experienced guest services professional.",
+    url: "https://www.linkedin.com/jobs/view/assistant-front-desk-manager-magnolia-houston-at-magnolia-hotels-4424613813"
+  },
+  {
+    id: "hs-4",
+    title: "Food & Beverage Supervisor",
+    company: "Westmont Hospitality",
+    location: "houston",
+    category: "hospitality",
+    source: "LinkedIn",
+    description: "Oversees daily food and beverage service operations for a Houston hospitality property. Service-floor leadership role with direct guest interaction.",
+    url: "https://www.linkedin.com/jobs/view/food-beverage-supervisor-at-westmont-hospitality-4418673945"
+  },
+  {
+    id: "hs-5",
+    title: "Restaurant Manager",
+    company: "Thind Management",
+    location: "houston",
+    category: "hospitality",
+    source: "LinkedIn",
+    description: "Manages restaurant operations, staffing, and guest satisfaction for a Houston-area property. Full-service restaurant leadership role.",
+    url: "https://www.linkedin.com/jobs/view/restaurant-manager-at-thind-management-4416837166"
   },
   {
     id: "hs-6",
-    title: "Marketing & Events Coordinator",
-    company: "Affinity Management Group",
+    title: "Front Desk Agent",
+    company: "Hotel Granduca Houston",
     location: "houston",
     category: "hospitality",
     source: "LinkedIn",
-    description: "Coordinate marketing initiatives and events in the Greater Houston area. Manage event planning, promotional materials, and community engagement activities.",
-    url: "https://www.linkedin.com/jobs/view/marketing-events-coordinator-at-affinity-management-group-4280881862"
+    description: "Front-of-house guest reception role at a luxury boutique Italian-inspired hotel in Houston's Uptown/Galleria area. Multilingual guest service skills are a strong asset.",
+    url: "https://www.linkedin.com/jobs/view/front-desk-agent-at-hotel-granduca-houston-4414686016"
   },
   {
     id: "hs-7",
-    title: "Director of Food and Beverage",
-    company: "Lensa",
+    title: "Hotel Guest Services Agent",
+    company: "Pyramid Global Hospitality",
     location: "houston",
     category: "hospitality",
     source: "LinkedIn",
-    description: "Lead food and beverage operations at a Houston hospitality property. Develop strategy, manage teams, control costs, and ensure exceptional dining service standards.",
-    url: "https://www.linkedin.com/jobs/view/director-of-food-and-beverage-at-lensa-4286627987"
+    description: "Provides front-line guest services including check-in, concierge support, and issue resolution at a Houston hotel. Ideal for a service-oriented, multilingual candidate.",
+    url: "https://www.linkedin.com/jobs/view/hotel-guest-services-agent-at-pyramid-global-hospitality-4413456851"
   },
   {
     id: "hs-8",
-    title: "Restaurant Manager",
-    company: "Landry's",
+    title: "Food Server — Hilton Houston Convention Center",
+    company: "Hilton Americas-Houston",
     location: "houston",
     category: "hospitality",
     source: "LinkedIn",
-    description: "Manage restaurant operations at Landry's, Houston's iconic hospitality and entertainment company. Oversee staff, service quality, and daily operations.",
-    url: "https://www.linkedin.com/jobs/view/restaurant-manager-at-landry-s-4262184155"
+    description: "Food & beverage server role at the large Hilton Americas convention center hotel in downtown Houston. Guest-facing service position in a high-volume hospitality setting.",
+    url: "https://www.linkedin.com/jobs/view/food-server-hilton-houston-convention-center-at-hilton-americas-houston-4405359996"
   },
 
   // ============================================================
@@ -360,136 +350,126 @@ const jobs = [
   // ============================================================
   {
     id: "mc-1",
-    title: "Marketing Coordinator",
-    company: "Softbase Systems",
+    title: "Marketing & Communications Specialist (Part-Time)",
+    company: "Communities In Schools of Houston",
     location: "houston",
     category: "marketing-comms",
     source: "LinkedIn",
-    description: "Coordinate marketing activities and campaigns for Softbase Systems in Houston. Support content creation, campaign execution, and marketing analytics.",
-    url: "https://www.linkedin.com/jobs/view/marketing-coordinator-at-softbase-systems-4370735664"
+    description: "Nonprofit marketing and communications role supporting brand messaging, content, and outreach for a Houston education-focused organization. Strong fit for multilingual writing/communications skills.",
+    url: "https://www.linkedin.com/jobs/view/marketing-communications-specialist-part-time-at-communities-in-schools-of-houston-4426521960"
   },
   {
     id: "mc-2",
-    title: "Marketing & Events Coordinator",
-    company: "Affinity Management Group",
+    title: "Social Media Manager",
+    company: "Houston Astros",
     location: "houston",
     category: "marketing-comms",
     source: "LinkedIn",
-    description: "Support marketing strategy, coordination, and execution of business area initiatives and events in the Greater Houston region. Manage social media and promotional materials.",
-    url: "https://www.linkedin.com/jobs/view/marketing-events-coordinator-at-affinity-management-group-4280881862"
+    description: "Manages social media content and channel strategy for an MLB franchise. Content-driven, writing-focused role with the Houston Astros.",
+    url: "https://www.linkedin.com/jobs/view/social-media-manager-at-houston-astros-4413612634"
   },
   {
     id: "mc-3",
-    title: "Graphic Designer",
-    company: "Harris County Engineering Department",
+    title: "Specialist, Product Marketing",
+    company: "Fluence",
     location: "houston",
     category: "marketing-comms",
     source: "LinkedIn",
-    description: "Design visuals for print and electronic media including publications, brochures, signs, banners, emails, video, and web pages. Requires 5+ years experience and expert Adobe proficiency.",
-    url: "https://www.linkedin.com/jobs/view/graphic-designer-at-harris-county-engineering-department-3414162111"
+    description: "Product marketing specialist supporting campaigns, content, and go-to-market messaging in Greater Houston.",
+    url: "https://www.linkedin.com/jobs/view/specialist-product-marketing-at-fluence-4413469626"
   },
   {
     id: "mc-4",
-    title: "Director of Marketing and Communications",
-    company: "Interfaith Ministries for Greater Houston",
+    title: "Marketing Coordinator",
+    company: "Ultimate Staffing",
     location: "houston",
     category: "marketing-comms",
     source: "LinkedIn",
-    description: "Manage communications to stakeholders including donors, media, community leaders, and public officials. Lead marketing strategy for one of Houston's largest social service nonprofits.",
-    url: "https://www.linkedin.com/jobs/view/director-of-marketing-and-communications-at-interfaith-ministries-for-greater-houston-3804445377"
-  },
-  {
-    id: "mc-5",
-    title: "Marketing Specialist",
-    company: "SLB (Schlumberger)",
-    location: "houston",
-    category: "marketing-comms",
-    source: "LinkedIn",
-    description: "Lead execution of marketing campaigns and partner with product teams at SLB, a global technology company headquartered in Houston. Support brand initiatives and market positioning.",
-    url: "https://www.linkedin.com/jobs/view/marketing-specialist-at-slb-3435919779"
+    description: "Early-career marketing coordinator role in Houston supporting campaigns, content, and coordination. Well-matched to a coordinator-level candidate.",
+    url: "https://www.linkedin.com/jobs/view/marketing-coordinator-at-ultimate-staffing-4407047069"
   },
   {
     id: "mc-rem-1",
-    title: "Social Media Marketing Manager (US Remote)",
-    company: "Luxury Presence",
+    title: "Marketing Coordinator — Content Creation & Events (Remote)",
+    company: "Updater",
     location: "remote",
     category: "marketing-comms",
-    source: "LinkedIn",
-    description: "Lead social media strategy for the fastest-growing digital platform for real estate agents and brokerages. Requires world-class content creation skills and seasoned social media expertise.",
-    url: "https://www.linkedin.com/jobs/view/social-media-marketing-manager-us-remote-at-luxury-presence-3912304620"
+    source: "Greenhouse",
+    description: "Fully remote coordinator role split roughly evenly between content creation (social posts, blog, email copy, case studies) and event support. Strong writing/communications fit.",
+    url: "https://boards.greenhouse.io/updater/jobs/5051212"
   },
   {
     id: "mc-rem-2",
-    title: "Social Media Manager — B2B Tech (Remote)",
-    company: "Stage 4 Solutions",
+    title: "Marketing & Content Coordinator (Remote, US)",
+    company: "Jobgether",
     location: "remote",
     category: "marketing-comms",
-    source: "LinkedIn",
-    description: "Execute and measure social media programs driving awareness and engagement for a high-growth B2B tech company. 6-month contract (potential FTE), 40 hrs/week. W2 with health benefits.",
-    url: "https://www.linkedin.com/jobs/view/social-media-manager-%E2%80%93-b2b-tech-remote-at-stage-4-solutions-3214982729"
+    source: "Lever",
+    description: "Remote content coordinator role creating, scheduling, and optimizing digital content across social media, websites, and email campaigns, including basic video editing.",
+    url: "https://jobs.lever.co/jobgether/8c067226-c35c-477f-a333-cb1f98e98b1a"
   },
 
   // ============================================================
-  // CATEGORY 6: Writing & Publishing — Houston & Remote
+  // CATEGORY 6: Writing & Publishing — Remote
   // ============================================================
   {
     id: "wr-1",
-    title: "Graphic Designer (In-Office)",
-    company: "Design Observer",
-    location: "houston",
+    title: "Technical Content Writer (Mobile / UX) — Remote",
+    company: "BairesDev",
+    location: "remote",
     category: "writing",
     source: "LinkedIn",
-    description: "In-office graphic design and visual content creation role at Design Observer in Houston. Produce creative assets for print and digital media.",
-    url: "https://www.linkedin.com/jobs/view/graphic-designer-in-office-at-design-observer-4145161023"
+    description: "Fully remote technical content writer focused on mobile and UX topics. Strong fit for a multilingual writer with sharp editing skills.",
+    url: "https://www.linkedin.com/jobs/view/technical-content-writer-mobile-ux-specialist-remote-work-at-bairesdev-4426114092"
   },
   {
     id: "wr-2",
-    title: "Copywriter (Remote)",
-    company: "Legrand, North America",
+    title: "Senior Conversion Copywriter — B2B Tech (Remote)",
+    company: "BairesDev",
     location: "remote",
     category: "writing",
     source: "LinkedIn",
-    description: "Support marketing communications including product launches, web content, and editorial writing for the Wiremold Team. Requires 3-5 years of copywriting or content development experience.",
-    url: "https://www.linkedin.com/jobs/view/copywriter-remote-at-legrand-north-america-2818093888"
+    description: "Remote conversion-focused copywriting role for B2B tech, writing persuasive marketing and web copy.",
+    url: "https://www.linkedin.com/jobs/view/senior-conversion-copywriter-b2b-tech-remote-work-at-bairesdev-4424634453"
   },
   {
     id: "wr-rem-1",
-    title: "Corporate Content Writer (Remote)",
-    company: "First American Title",
+    title: "Copywriter (Remote)",
+    company: "YO IT Consulting",
     location: "remote",
     category: "writing",
     source: "LinkedIn",
-    description: "Edit, create, and manage corporate-driven content for websites and marketing materials. Requires 3+ years of online copywriting experience including SEO/SEM writing technique.",
-    url: "https://www.linkedin.com/jobs/view/corporate-content-writer-remote-at-first-american-title-2982835593"
+    description: "Fully remote copywriter position producing marketing and web copy across channels.",
+    url: "https://www.linkedin.com/jobs/view/copywriter-remote-at-yo-it-consulting-4422000741"
   },
   {
     id: "wr-rem-2",
-    title: "Content Writer (Remote) — $100K/year",
-    company: "Crossover",
+    title: "Technical Writer (Remote)",
+    company: "Conexess Group",
     location: "remote",
     category: "writing",
     source: "LinkedIn",
-    description: "Turn AI-generated drafts into compelling marketing narratives. $50/hr ($100K/year). Requires 3+ years creating written content for B2C or D2C audiences. Blend cutting-edge AI with human creativity.",
-    url: "https://www.linkedin.com/jobs/view/content-writer-remote-$100-000-year-usd-at-crossover-3901743195"
+    description: "Remote technical writer creating documentation and guides that explain technical concepts and procedures clearly.",
+    url: "https://www.linkedin.com/jobs/view/technical-writer-remote-at-conexess-group-4408677868"
   },
   {
     id: "wr-rem-3",
-    title: "Associate Content Writer (Remote)",
-    company: "Breaktime Media",
+    title: "Content Writer (US, Remote)",
+    company: "Wing Assistant",
     location: "remote",
     category: "writing",
-    source: "LinkedIn",
-    description: "Craft copy and develop rich, engaging content for advertising campaigns, editorial content, and email marketing. Work closely with Lead Content Producer on client campaigns and creative ideation.",
-    url: "https://www.linkedin.com/jobs/view/associate-content-writer-remote-at-breaktime-media-3126243766"
+    source: "Lever",
+    description: "Remote (US) content writer producing blogs, articles, web pages, social posts, newsletters, white papers, and case studies. Hosted on a stable Lever career page.",
+    url: "https://jobs.lever.co/getwingapp/3a620870-47f7-4a7e-beca-9a4611e755e6"
   },
   {
     id: "wr-rem-4",
-    title: "Marketing Copywriter & Editor (Remote)",
-    company: "Dropbox",
+    title: "Bilingual Social Media & Content Creator (Remote)",
+    company: "FuseGlobal Partners",
     location: "remote",
     category: "writing",
     source: "LinkedIn",
-    description: "Shape and strengthen the Dropbox voice within high-impact marketing initiatives. 6+ years experience in copywriting, editorial content, or journalism. $128K-$196K plus RSUs.",
-    url: "https://www.linkedin.com/jobs/view/marketing-copywriter-editor-remote-at-dropbox-4365892107"
+    description: "Remote bilingual (English/Spanish) social media and content creation role producing posts, copy, and campaign assets. Strong match for a multilingual writer.",
+    url: "https://www.linkedin.com/jobs/view/bilingual-social-media-content-creator-at-fuseglobal-partners-4378046460"
   }
 ];
